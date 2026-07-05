@@ -27,6 +27,7 @@ else:
 # ==============================================================================
 
 INSTALLED_APPS = [
+    'django.contrib.staticfiles',
     'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
