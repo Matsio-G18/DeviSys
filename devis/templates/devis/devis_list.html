@@ -34,7 +34,8 @@
         <table class="table table-hover table-striped">
           <thead>
             <tr class="bg-gray-light">
-              <th style="width: 130px;">N° Devis</th>
+              <th style="width: 140px;">N° Devis</th>
+              <th style="width: 130px;" class="text-center">Domaine</th> <!-- 🆕 Colonne Domaine d'activité -->
               <th>Date Émission</th>
               <th>Client</th>
               <th>Objet</th>
@@ -52,10 +53,24 @@
                   {{ d.numero|default:"En cours..." }}
                 </span>
               </td>
-              <td>{{ d.date_emission|date:"d/m/Y" }}</td>
-              <td><strong>{{ d.client.nom }}</strong></td> <!-- Modifiez .nom selon le champ réel de votre modèle Client -->
-              <td>{{ d.objet }}</td>
-              <td class="text-center">
+              
+              <!-- 🆕 BADGE VISUEL DU DOMAINE D'ACTIVITÉ -->
+              <td class="text-center" style="vertical-align: middle;">
+                {% if d.domaine == 'btp' %}
+                  <span class="label label-warning" style="color: #444 !important; font-size: 10px; display: block; padding: 4px;"><i class="fa fa-gavel"></i> BTP</span>
+                {% elif d.domaine == 'it' %}
+                  <span class="label label-info" style="font-size: 10px; display: block; padding: 4px;"><i class="fa fa-laptop"></i> Info / IT</span>
+                {% elif d.domaine == 'service' %}
+                  <span class="label label-success" style="font-size: 10px; display: block; padding: 4px;"><i class="fa fa-briefcase"></i> Service</span>
+                {% else %}
+                  <span class="label label-default" style="font-size: 10px; display: block; padding: 4px;"><i class="fa fa-shopping-cart"></i> Commerce</span>
+                {% endif %}
+              </td>
+
+              <td style="vertical-align: middle;">{{ d.date_emission|date:"d/m/Y" }}</td>
+              <td style="vertical-align: middle;"><strong>{{ d.client.nom }}</strong></td>
+              <td style="vertical-align: middle;">{{ d.objet }}</td>
+              <td class="text-center" style="vertical-align: middle;">
                 {% if d.statut == 'brouillon' %}
                   <span class="label label-default">Brouillon</span>
                 {% elif d.statut == 'envoye' %}
@@ -68,9 +83,9 @@
                   <span class="label label-danger">Refusé</span>
                 {% endif %}
               </td>
-              <td class="text-right"><strong>{{ d.total_ht }}</strong> <small>{{ d.devise }}</small></td>
-              <td class="text-right text-primary"><strong>{{ d.total_ttc }}</strong> <small>{{ d.devise }}</small></td>
-              <td class="text-center">
+              <td class="text-right" style="vertical-align: middle;"><strong>{{ d.total_ht }}</strong> <small>{{ d.devise }}</small></td>
+              <td class="text-right text-primary" style="vertical-align: middle;"><strong>{{ d.total_ttc }}</strong> <small>{{ d.devise }}</small></td>
+              <td class="text-center" style="vertical-align: middle;">
                 <div class="btn-group">
                   <a href="{% url 'devis:detail' d.id %}" class="btn btn-default btn-xs" title="Voir le détail">
                     <i class="fa fa-eye"></i>
@@ -83,7 +98,7 @@
             </tr>
             {% empty %}
             <tr>
-              <td colspan="8" class="text-center text-muted" style="padding: 20px;">
+              <td colspan="9" class="text-center text-muted" style="padding: 20px;">
                 <i class="fa fa-info-circle"></i> Aucun devis enregistré pour le moment.
               </td>
             </tr>

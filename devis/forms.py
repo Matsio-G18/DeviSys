@@ -7,6 +7,7 @@ class DevisForm(forms.ModelForm):
     class Meta:
         model = Devis
         fields = [
+            'domaine',  # 🆕 Ajout du combo pour le domaine d'activité
             'client',
             'type_template',
             'objet',
@@ -17,9 +18,10 @@ class DevisForm(forms.ModelForm):
             'devise',
         ]
         widgets = {
+            'domaine': forms.Select(attrs={'class': 'form-select'}), # Style combo standard
             'objet': forms.TextInput(attrs={'placeholder': 'Ex: Fourniture et installation de serveurs'}),
             'validite_jours': forms.NumberInput(attrs={'min': 1}),
-            'reference_appel_offre': forms.TextInput(attrs={'placeholder': 'N° de l\'AO Client (Optionnel)'}),
+            'reference_appel_offre': forms.TextInput(attrs={'placeholder': "N° de l'AO Client (Optionnel)"}),
             'reference_projet': forms.TextInput(attrs={'placeholder': 'Nom du projet ou code budget (Optionnel)'}),
         }
 
@@ -40,7 +42,7 @@ class LigneDevisForm(forms.ModelForm):
             'designation': forms.TextInput(attrs={'placeholder': 'Nom du produit ou service'}),
             'description': forms.Textarea(attrs={
                 'placeholder': 'Détails ou spécifications techniques (Optionnel)',
-                'rows': 1,  # Reste compact en hauteur grâce au style CSS
+                'rows': 1,
             }),
             'qte': forms.NumberInput(attrs={'step': '0.01', 'min': '0.00'}),
             'pu_ht': forms.NumberInput(attrs={'step': '0.01', 'min': '0.00'}),
@@ -49,11 +51,10 @@ class LigneDevisForm(forms.ModelForm):
         }
 
 
-# Configuration du FormSet avec le préfixe explicite pour le JavaScript
 LigneFormSet = inlineformset_factory(
     Devis, 
     LigneDevis, 
     form=LigneDevisForm, 
-    extra=1,              # Réduit à 1 ligne vide par défaut pour alléger l'affichage initial
+    extra=1,
     can_delete=True
 )

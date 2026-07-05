@@ -17,8 +17,22 @@
   <!-- Ligne de titre -->
   <div class="row">
     <div class="col-xs-12">
-      <h2 class="page-header" style="margin-top: 0;">
+      <h2 class="page-header" style="margin-top: 0; padding-bottom: 15px;">
         <i class="fa fa-file-text-o text-primary"></i> DEVISYS
+        
+        <!-- 🆕 AFFICHAGE DU BADGE DE DOMAINE D'ACTIVITÉ -->
+        <span style="font-size: 14px; margin-left: 10px; vertical-align: middle;">
+          {% if devis.domaine == 'btp' %}
+            <span class="label label-warning" style="color: #444 !important;"><i class="fa fa-gavel"></i> Bâtiment & BTP</span>
+          {% elif devis.domaine == 'it' %}
+            <span class="label label-info"><i class="fa fa-laptop"></i> Informatique & Télécoms</span>
+          {% elif devis.domaine == 'service' %}
+            <span class="label label-success"><i class="fa fa-briefcase"></i> Prestation de Services</span>
+          {% else %}
+            <span class="label label-default"><i class="fa fa-shopping-cart"></i> Général / Commerce</span>
+          {% endif %}
+        </span>
+
         <small class="pull-right">Date de validité : {{ devis.date_validite|date:"d/m/Y"|default:"—" }}</small>
       </h2>
     </div>
@@ -66,7 +80,7 @@
         <thead>
           <tr class="bg-gray">
             <th>Désignation / Description</th>
-            <th style="width: 100px;" class="text-center">Unité</th>
+            <th style="width: 130px;" class="text-center">Unité</th>
             <th style="width: 100px;" class="text-center">Quantité</th>
             <th style="width: 150px;" class="text-right">PU HT</th>
             <th style="width: 100px;" class="text-center">TVA</th>
@@ -83,6 +97,7 @@
                 <br><small class="text-muted" style="white-space: pre-line;">{{ l.description }}</small>
               {% endif %}
             </td>
+            <!-- Affichage optimisé de l'unité avec sa valeur descriptive complète -->
             <td class="text-center"><span class="label label-default">{{ l.get_unite_display }}</span></td>
             <td class="text-center">{{ l.qte }}</td>
             <td class="text-right">{{ l.pu_ht }} <small>{{ devis.devise }}</small></td>
@@ -153,13 +168,19 @@
     var devise = '{{ devis.devise }}';
     
     lines.push('🟢 *DEVIS DEVISYS : #' + '{{ devis.numero|escapejs }}*');
-    lines.push('👤 *Client:* ' + '{{ devis.client.nom|escapejs }}');
-    lines.push('📋 *Objet:* ' + '{{ devis.objet|escapejs }}');
+    
+    // 🆕 INTÉGRATION DE LA MENTION TEXTUELLE DU DOMAINE SUR WHATSAPP
+    var domMap = { 'btp': 'Bâtiment & BTP', 'it': 'Informatique & Télécoms', 'service': 'Prestation de Services', 'general': 'Général / Commerce' };
+    var currentDomaine = domMap['{{ devis.domaine|escapejs }}'] || 'Général';
+    lines.push('📂 *Secteur d\'activité :* ' + currentDomaine);
+    
+    lines.push('👤 *Client :* ' + '{{ devis.client.nom|escapejs }}');
+    lines.push('📋 *Objet :* ' + '{{ devis.objet|escapejs }}');
     lines.push('');
     lines.push('--- *Détail des prestations* ---');
     
     {% for l in devis.lignes.all %}
-      lines.push('▪️ {{ l.designation|escapejs }} \n    _x{{ l.qte }} @ {{ l.pu_ht }} ' + devise + '_ = *{{ l.montant_ht }} ' + devise + '*');
+      lines.push('▪️ {{ l.designation|escapejs }} \n    _x{{ l.qte }} {{ l.get_unite_display|escapejs }} @ {{ l.pu_ht }} ' + devise + '_ = *{{ l.montant_ht }} ' + devise + '*');
     {% endfor %}
     
     lines.push('');

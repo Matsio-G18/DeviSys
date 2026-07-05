@@ -6,15 +6,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # ==============================================================================
-# CONFIGURATION DE SÉCURITÉ ET DÉVELOPPEMENT
+# CONFIGURATION DE SÉCURITÉ ET DÉVELOPPEMENT (SÉCURISÉE POUR RENDER)
 # ==============================================================================
 
-SECRET_KEY = 'django-insecure-_8g9#=a83&pntpwnprx)=c%3b3z*a0s-nh5mf7qw)wl)cb2e1x'
+# Récupère la clé secrète depuis l'environnement sur Render, ou utilise la clé locale en développement
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-_8g9#=a83&pntpwnprx)=c%3b3z*a0s-nh5mf7qw)wl)cb2e1x')
 
-DEBUG = True
+# Passe automatiquement à False en production si la variable DEBUG n'est pas définie sur True
+DEBUG = os.environ.get('DEBUG', 'False') == 'False'
 
-# Autoriser localhost et l'IP locale pour le développement et les tests PWA
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '[::1]']
+# Autoriser localhost pour le développement et toutes les URLs générées par Render en production
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '[::1]', '.render.com']
 
 
 # ==============================================================================
@@ -39,6 +41,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', # Gestion optimisée des fichiers statiques
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',  # Protection CSRF active
@@ -124,6 +127,12 @@ STATICFILES_DIRS = [
 # Dossier de destination pour la production (requis par collectstatic)
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
+
 
 # ==============================================================================
 # CONFIGURATION DES REDIRECTIONS D'AUTHENTIFICATION (AUTHENTICATION)
@@ -145,21 +154,27 @@ CSRF_COOKIE_HTTPONLY = False  # Permet à l'interface de lire le jeton lors des 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
 # ==============================================================================
 # CONFIGURATION DES ENVOIS D'EMAILS
 # ==============================================================================
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'                # Serveur SMTP de votre fournisseur
+EMAIL_HOST = '://gmail.com'                # Serveur SMTP de votre fournisseur
 EMAIL_PORT = 587                             # Port standard sécurisé
 EMAIL_USE_TLS = True                         # Chiffrement requis
 EMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle
-EMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application
+
+# Sécurisation du mot de passe de l'application SMTP
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', 'dxpb ocjz eqzh aazf')
 DEFAULT_FROM_EMAIL = f"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>"
 
 
-# Configuration de Jazzmin
+# ==============================================================================
+# INTERFACE DE GESTION JAZZMIN
+# ==============================================================================
+
 JAZZMIN_SETTINGS = {
-    
     # Titre de la fenêtre du navigateur
     "site_title": "Don & Gloire - Devis",
     
@@ -180,8 +195,7 @@ JAZZMIN_SETTINGS = {
     
     "custom_css": "core/css/admin_custom.css",
     
-     # 1. METTRE EN VALEUR LES MENUS PRINCIPAUX
-    # Trie les applications dans l'ordre que vous voulez
+    # 1. METTRE EN VALEUR LES MENUS PRINCIPAUX
     "topmenu_links": [
         {"name": "Accueil", "url": "admin:index", "permissions": ["auth.view_user"]},
         {"model": "devis.Devis"},
@@ -189,7 +203,6 @@ JAZZMIN_SETTINGS = {
     ],
     
     # 2. ACTIVER LE PERSONNALISEUR DE THÈME EN DIRECT
-    # Un bouton de réglage va apparaître en haut à droite sur votre écran admin
     "show_ui_builder": True,
     
     # Forme des icônes pour le menu latéral
@@ -226,20 +239,4 @@ JAZZMIN_UI_TWEAKS = {
     "brand_small_text": False,
     "sidebar_nav_small_text": False,
     "sidebar_disable_expand": False,
-    "sidebar_nav_child_indent": True,
-    "sidebar_nav_compact_style": False,
-    "sidebar_nav_legacy_style": False,
-    "sidebar_nav_flat_style": False,
-    
-    # Formes arrondies pour les boutons et les badges
-    "no_navbar_border": False,
-    "border_small_text": False,
-    "button_classes": {
-        "primary": "btn-primary",
-        "secondary": "btn-secondary",
-        "info": "btn-info",
-        "warning": "btn-warning",
-        "danger": "btn-danger",
-        "success": "btn-success"
-    }
 }

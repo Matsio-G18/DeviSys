@@ -1,18 +1,18 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from django.views.generic import ListView, DetailView
-from django.db import transaction
 import io
-from django.conf import settings
 from decimal import Decimal
-from django.http import FileResponse
-from django.urls import reverse
-from .models import Devis
-from .forms import DevisForm, LigneFormSet
-
-from .utils import envoyer_notifications_devis, build_devis_pdf_bytes
-
+from django.conf import settings
 from django.contrib import messages
 from django.core.mail import EmailMessage
+from django.db import transaction
+from django.http import FileResponse
+from django.shortcuts import get_object_or_404, redirect, render
+from django.urls import reverse
+from django.views.generic import DetailView, ListView
+
+from .forms import DevisForm, LigneFormSet
+from .models import Devis
+from .utils import build_devis_pdf_bytes, envoyer_notifications_devis
+
 
 class DevisListView(ListView):
     model = Devis
@@ -27,19 +27,21 @@ class DevisDetailView(DetailView):
 
 
 def _save_devis_and_formset(form, formset, instance=None):
-    devis = form.save(commit=False)
-    devis.save()
+    # Enregistre les données de base du devis (génère le numéro basé sur le domaine sélectionné)
+    devis = form.save()
 
+    # Enregistre les lignes liées
     lignes = formset.save(commit=False)
     for ligne in lignes:
         ligne.devis = devis
         ligne.save()
 
+    # Supprime les lignes cochées
     for ligne in formset.deleted_objects:
         ligne.delete()
 
+    # Force le recalcul financier global via la méthode du modèle sécurisée
     devis.update_totals()
-    devis.save()
     return devis
 
 
@@ -81,8 +83,6 @@ def devis_delete(request, pk):
     return render(request, 'devis/devis_confirm_delete.html', {'devis': devis})
 
 
-
-
 def telecharger_devis_pdf(request, devis_id):
     devis = get_object_or_404(Devis, pk=devis_id)
     pdf_data = build_devis_pdf_bytes(devis)
@@ -93,13 +93,11 @@ def envoyer_devis_par_email(request, devis_id):
     devis = get_object_or_404(Devis, pk=devis_id)
     client = devis.client
 
-    # Vérification de sécurité : le client doit avoir un e-mail valide
     if not client.email:
         messages.error(request, f"❌ Impossible d'envoyer : Le client '{client.nom}' n'a pas d'adresse e-mail enregistrée.")
         return redirect(request.META.get('HTTP_REFERER', '/admin/'))
 
     try:
-        # 2. Personnalisation du message selon le type de template (Particulier, ONG, Entreprise)
         if devis.type_template == 'particulier':
             salutation = f"Bonjour {client.nom},"
             corps_texte = f"Veuillez trouver ci-joint votre devis concernant votre projet : \"{devis.objet}\"."
@@ -110,12 +108,11 @@ def envoyer_devis_par_email(request, devis_id):
             corps_texte = f"Dans le cadre de nos échanges, nous avons le plaisir de vous transmettre notre proposition budgétaire pour l'action : \"{devis.objet}\"."
             formule_fin = "Espérant que cette proposition réponde à vos critères d'impact, nous restons disponibles pour échanger."
             
-        else: # Entreprise / Grande Structure
+        else:
             salutation = f"Mesdames, Messieurs les responsables de {client.nom},"
             corps_texte = f"Suite à l'étude de votre cahier des charges, vous trouverez ci-joint notre offre commerciale et technique pour le projet : \"{devis.objet}\"."
             formule_fin = "Nous nous tenons à votre entière disposition pour caler une réunion technique de cadrage si nécessaire."
 
-        # Assemblage final du corps du texte de l'e-mail
         message_complet = f"""{salutation}
 
 {corps_texte}
@@ -131,7 +128,6 @@ L'équipe Don & Gloire
 
         sujet = f"Proposition Commerciale Don & Gloire : {devis.numero}"
 
-
         email = EmailMessage(
             subject=sujet,
             body=message_complet,
@@ -139,17 +135,11 @@ L'équipe Don & Gloire
             to=[client.email],
         )
 
-        # 2. Génération du PDF ReportLab en mémoire
         pdf_data = build_devis_pdf_bytes(devis)
-
-        # 3. Attacher le PDF à l'e-mail
         nom_fichier = f"Devis_{devis.numero}.pdf"
         email.attach(nom_fichier, pdf_data, 'application/pdf')
-
-        # 4. Envoi de l'e-mail
         email.send()
 
-        # 5. Mise à jour du statut du devis
         if devis.statut == 'brouillon':
             devis.statut = 'envoye'
             devis.save(update_fields=['statut'])
@@ -160,4 +150,3 @@ L'équipe Don & Gloire
         messages.error(request, f"💥 Une erreur est survenue lors de l'envoi : {str(e)}")
 
     return redirect(request.META.get('HTTP_REFERER', '/admin/'))
-
