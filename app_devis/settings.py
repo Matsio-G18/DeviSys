@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-_8g9#=a83&pntpwnprx)=c%3b3z*a0s-nh5mf7qw)wl)cb2e1x')
 
 # Passe automatiquement à False en production si la variable DEBUG n'est pas définie sur True
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = os.environ.get('DEBUG', 'False') == 'False'
 
 # Autoriser localhost pour le développement et toutes les URLs générées par Render en production
 if not DEBUG:
