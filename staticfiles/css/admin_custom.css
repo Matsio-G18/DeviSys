@@ -1,0 +1,32 @@
+/* static/core/css/admin_custom.css */
+
+/* Barre supérieure (Navbar) : Bleu Cyan de votre logo */
+.main-header.navbar-dark {
+    background-color: #00A3E0 !important;
+    border-color: #00A3E0 !important;
+}
+
+/* Éléments sélectionnés et boutons principaux : Orange Foncé */
+.btn-primary, .page-item.active .page-link, .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #FF6600 !important;
+    border-color: #FF6600 !important;
+}
+
+/* Liens au survol */
+a {
+    color: #00A3E0;
+}
+a:hover {
+    color: #FF6600;
+}
+
+/* Menu latéral gauche : Gris foncé professionnel identique au fond du logo */
+.main-sidebar {
+    background-color: #252830 !important;
+}
+
+/* Bouton de soumission dans les formulaires d'édition */
+.btn-success {
+    background-color: #00A3E0 !important;
+    border-color: #00A3E0 !important;
+}
