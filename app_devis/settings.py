@@ -136,7 +136,7 @@ STORAGES = {
     },
 }
 
-
+WHITENOISE_IGNORE_MISSING_FILES = True
 # ==============================================================================
 # CONFIGURATION DES REDIRECTIONS D'AUTHENTIFICATION (AUTHENTICATION)
 # ==============================================================================
