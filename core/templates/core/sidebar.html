@@ -1,0 +1,60 @@
+{% load static %}
+<aside class="main-sidebar">
+    <!-- Conteneur de la barre latérale -->
+    <section class="sidebar">
+        
+        
+
+        <!-- Titre de la section de navigation -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">NAVIGATION PRINCIPALE</li>
+
+            <!-- Lien : Accueil -->
+            <li class="{% if request.path == '/' %}active{% endif %}">
+                <a href="/">
+                    <i class="fa fa-dashboard"></i> <span>Accueil</span>
+                </a>
+            </li>
+
+            <!-- Lien : Clients -->
+            <li class="{% if '/clients/' in request.path %}active{% endif %}">
+                <a href="/clients/">
+                    <i class="fa fa-users"></i> <span>Clients</span>
+                </a>
+            </li>
+
+            <!-- Lien : Devis (Avec un badge pour le style) -->
+            <li class="{% if '/devis/' in request.path %}active{% endif %}">
+                <a href="/devis/">
+                    <i class="fa fa-file-text-o"></i> <span>Devis</span>
+                    <span class="pull-right-container">
+                        <small class="label pull-right bg-green">DeviSys</small>
+                    </span>
+                </a>
+            </li>
+
+            <!-- Lien : PWA (Application Mobile) -->
+            <li class="{% if '/pwa/' in request.path %}active{% endif %}">
+                <a href="/pwa/">
+                    <i class="fa fa-mobile"></i> <span>Application PWA</span>
+                </a>
+            </li>
+
+            <li class="header">AUTRES</li>
+
+            <!-- Lien : À propos -->
+            <li class="{% if '/about/' in request.path %}active{% endif %}">
+                <a href="/about/">
+                    <i class="fa fa-info-circle"></i> <span>À propos</span>
+                </a>
+            </li>
+
+            <!-- Raccourci PWA Mobile (Masqué par défaut, apparaît si l'application est installable) -->
+             <li id="pwa-install-btn" style="display: none;">
+                <a href="#" onclick="triggerPwaInstallation(event)" style="background-color: #3c8dbc; color: #ffffff !important;">
+                    <i class="fa fa-download" style="color: #ffffff !important;"></i> <span>Installer sur mon Mobile</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+</aside>

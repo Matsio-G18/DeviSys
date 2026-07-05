@@ -1,0 +1,166 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block title %}À propos — DeviSys{% endblock %}
+
+{% block content %}
+<!-- EN-TÊTE DE LA PAGE -->
+<section class="content-header">
+  <h1>
+    À propos
+    <small>Présentation du système et du développeur</small>
+  </h1>
+</section>
+
+<!-- CONTENU PRINCIPAL -->
+<div class="row" style="margin-top: 15px;">
+  <div class="col-md-10 col-md-offset-1 col-xs-12">
+    
+    <!-- BLOC 1 : CARTE DE PRÉSENTATION DE L'APPLICATION -->
+    <div class="box box-widget widget-user">
+      <div class="widget-user-header bg-blue-active text-center" style="height: auto; padding: 30px 15px;">
+        <h2 class="widget-user-username" style="font-size: 28px; font-weight: 700; margin-bottom: 5px;">
+          ⚡ DeviSys
+        </h2>
+        <h4 class="widget-user-desc" style="margin-top: 0; opacity: 0.9;">
+          Gestion & Pilotage Commercial
+        </h4>
+      </div>
+      
+      <div class="text-center" style="margin-top: 20px; margin-bottom: 10px;">
+        <div class="bg-yellow" style="width: 80px; height: 80px; line-height: 80px; border-radius: 50%; font-size: 35px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+          📊
+        </div>
+      </div>
+
+      <div class="box-body" style="padding: 20px 30px;">
+        <div class="text-center">
+          <p class="lead" style="font-size: 16px; color: #444; margin-bottom: 10px;">
+            <strong>DeviSys</strong> est une solution logicielle conçue pour automatiser la création, le suivi métrique et la transmission instantanée de vos devis professionnels.
+          </p>
+          <p class="text-muted">
+            Cette plateforme optimise la gestion commerciale des structures pour les connecter plus rapidement à leurs clients, que vous soyez une Entreprise, une ONG ou un Particulier.
+          </p>
+        </div>
+
+        <hr style="margin: 25px 0;">
+
+        <h4 class="text-center" style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 25px; color: #555;">
+          Fonctionnalités Clés
+        </h4>
+        
+        <div class="row">
+          <div class="col-sm-6" style="margin-bottom: 20px;">
+            <div style="display: flex; align-items: flex-start;">
+              <span class="text-primary" style="font-size: 20px; margin-right: 15px; margin-top: 2px;"><i class="fa fa-flash"></i></span>
+              <div>
+                <strong style="color: #333; display: block; margin-bottom: 30px; height: 0;">Création Ultra-Rapide</strong>
+                <p class="text-muted" style="font-size: 13px; margin-top: 5px;">Générez vos lignes de prestations et calculez la TVA en quelques clics.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6" style="margin-bottom: 20px;">
+            <div style="display: flex; align-items: flex-start;">
+              <span class="text-green" style="font-size: 20px; margin-right: 15px; margin-top: 2px;"><i class="fa fa-whatsapp"></i></span>
+              <div>
+                <strong style="color: #333; display: block; margin-bottom: 30px; height: 0;">Partage instantané</strong>
+                <p class="text-muted" style="font-size: 13px; margin-top: 5px;">Envoyez des résumés clairs formatés directement sur le WhatsApp de vos clients.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6" style="margin-bottom: 20px;">
+            <div style="display: flex; align-items: flex-start;">
+              <span class="text-orange" style="font-size: 20px; margin-right: 15px; margin-top: 2px;"><i class="fa fa-users"></i></span>
+              <div>
+                <strong style="color: #333; display: block; margin-bottom: 30px; height: 0;">Fiches Clients centralisées</strong>
+                <p class="text-muted" style="font-size: 13px; margin-top: 5px;">Suivez les informations administratives obligatoires (NIF, RCCM, Agréments).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6" style="margin-bottom: 20px;">
+            <div style="display: flex; align-items: flex-start;">
+              <span class="text-aqua" style="font-size: 20px; margin-right: 15px; margin-top: 2px;"><i class="fa fa-mobile"></i></span>
+              <div>
+                <strong style="color: #333; display: block; margin-bottom: 30px; height: 0;">Support Mobile & PWA</strong>
+                <p class="text-muted" style="font-size: 13px; margin-top: 5px;">Une interface responsive conçue pour être installée et utilisée sur le terrain.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.box -->
+
+
+    <!-- BLOC 2 : BIOGRAPHIE DU DÉVELOPPEUR -->
+    <div class="box box-solid box-default" style="margin-top: 25px;">
+      <div class="box-header with-border">
+        <h3 class="box-title"><i class="fa fa-code"></i> Le Développeur</h3>
+      </div>
+      <div class="box-body" style="padding: 20px;">
+        <div class="row">
+          
+          <!-- Photo & Contact -->
+          <div class="col-md-4 text-center" style="margin-bottom: 20px;">
+            <div style="position: relative; display: inline-block; margin-bottom: 15px;">
+              <img src="{% static 'images/fondcoldoni.jpeg' %}" alt="Don'G" class="img-circle img-thumbnail" style="width: 150px; height: 150px; object-fit: right; border: 3px solid #3c8dbc;">
+              <span class="label label-success" style="position: absolute; bottom: 10px; right: 10px; border-radius: 50%; width: 28px; height: 28px; border: 2px solid #fff; padding: 0;" title="Disponible pour projets"></span>
+            </div>
+            <h4 style="margin: 0 0 3px 0; font-weight: 700; color: #333;">Doni MATSIONA</h4>
+            <p class="text-muted text-uppercase" style="font-size: 11px; font-weight: 600; letter-spacing: 0.5px;">Développeur Full-Stack</p>
+            
+            <div style="margin-top: 15px;">
+              <a href="mailto:donimatsiona@gmail.com" class="btn btn-sm btn-default btn-flat" style="margin-right: 5px;">
+                <i class="fa fa-envelope text-primary"></i> Email
+              </a>
+              <a href="https://wa.me" target="_blank" class="btn btn-sm btn-success btn-flat">
+                <i class="fa fa-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Présentation & Stack -->
+          <div class="col-md-8">
+            <h4 style="font-weight: 600; margin-top: 0; color: #444; border-bottom: 1px solid #eee; padding-bottom: 8px;">
+              🚀 Qui suis-je ?
+            </h4>
+            <p class="text-muted" style="font-size: 14px; line-height: 1.6; text-align: justify;">
+              Passionné par l'ingénierie logicielle et le déploiement de solutions numériques à fort impact au Congo, j'accompagne les entreprises et organisations dans leur transformation digitale. En tant que développeur Full-Stack, je conçois des architectures applicatives complètes, de la modélisation des bases de données jusqu'aux interfaces mobiles modernes et fluides.
+            </p>
+            <p class="text-muted" style="font-size: 14px; line-height: 1.6; text-align: justify;">
+              L'application <strong>DeviSys</strong> est le reflet de ma philosophie de développement : créer des outils épurés, performants, sécurisés et capables de fonctionner partout, afin d'éliminer les tâches répétitives et maximiser votre productivité.
+            </p>
+
+            <h5 style="font-weight: 600; color: #555; margin-top: 20px; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px;">
+              Expertise & Technologies
+            </h5>
+            <div style="margin-top: 10px;">
+              <span class="label label-primary" style="display: inline-block; padding: 6px 10px; font-size: 11px; margin: 0 4px 6px 0;">Django & Python</span>
+              <span class="label label-default" style="display: inline-block; padding: 6px 10px; font-size: 11px; margin: 0 4px 6px 0; background-color: #343a40; color: #fff;">SQLite / PostgreSQL / MySQL</span>
+              <span class="label label-info" style="display: inline-block; padding: 6px 10px; font-size: 11px; margin: 0 4px 6px 0;">Bootstrap  </span>
+              <span class="label label-warning" style="display: inline-block; padding: 6px 10px; font-size: 11px; margin: 0 4px 6px 0; color: #fff !important;">JavaScript / PWA</span>
+              <span class="label label-danger" style="display: inline-block; padding: 6px 10px; font-size: 11px; margin: 0 4px 6px 0;">ReportLab (PDF)</span>
+              <span class="label label-success" style="display: inline-block; padding: 6px 10px; font-size: 11px; margin: 0 4px 6px 0;">Git & DevOps</span>
+            </div>
+          </div>  
+
+        </div>
+      </div>
+    </div>
+    <!-- /.box -->
+
+    <!-- BOUTON RETOUR -->
+    <div class="text-center" style="margin-top: 25px; margin-bottom: 30px;">
+      <a href="/" class="btn btn-default btn-flat btn-lg">
+        <i class="fa fa-home"></i> Retour à l'accueil
+      </a>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

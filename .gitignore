@@ -1,0 +1,18 @@
+)
+db.sqlite3
+
+# Environnement virtuel (remplacez par le nom de votre dossier s'il est différent)
+venv/
+env/
+ENV/
+
+# Fichiers de configuration secrets (clés secrètes Django)
+.env
+
+# Dossier des médias téléversés par les utilisateurs
+media/
+
+# Fichiers système ou d'éditeurs (VS Code / PyCharm)
+.vscode/
+.idea/
+.DS_Store

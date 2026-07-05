@@ -1,0 +1,120 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block title %}Installer l'application — DeviSys{% endblock %}
+
+{% block content %}
+<div class="row" style="margin-top: 30px; margin-bottom: 50px;">
+  <div class="col-md-10 col-md-offset-1 col-xs-12">
+    
+    <!-- BANNER JUMBOTRON IMPOSANT -->
+    <div class="jumbotron text-center shadow-lg" style="background: #ffffff; border-top: 6px solid #00A3E0; padding: 50px 30px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+      
+      <!-- Logo avec vos couleurs d'entreprise -->
+      <div style="margin-bottom: 30px;">
+        <img src="{% static 'images/logo.jpeg' %}" alt="Logo Don & Gloire" 
+             style="max-width: 290px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 10px 25px rgba(255, 102, 0, 0.3); border: 4px solid #FF6600;">
+      </div>
+
+      <!-- Titre massif -->
+      <h1 style="font-size: 52px; font-weight: 800; color: #252830; margin-bottom: 15px; letter-spacing: -1px;">
+        Installez <span style="color: #00A3E0;">DeviSys</span> sur votre Appareil
+      </h1>
+      
+      <p class="text-muted" style="font-size: 20px; max-width: 750px; margin: 0 auto 40px auto; line-height: 1.6;">
+        Profitez d'une expérience fluide, ultra-rapide et accessible **hors-ligne** directement depuis l'écran d'accueil de votre smartphone ou de votre ordinateur.
+      </p>
+
+      <!-- BOUTON AVEC VOTRE ORANGE FONCÉ -->
+      <div style="margin-bottom: 45px;">
+        <button class="btn btn-lg" onclick="triggerPwaInstallation(event)" 
+                style="font-size: 24px; font-weight: 700; padding: 18px 45px; border-radius: 6px; background-color: #FF6600; color: white; box-shadow: 0 6px 20px rgba(255, 102, 0, 0.4); text-transform: uppercase; letter-spacing: 0.5px; border: none;">
+          <i class="fa fa-download"></i> Installer l'Application Maintenant
+        </button>
+      </div>
+
+      <hr style="max-width: 400px; margin: 0 auto 35px auto; border-top: 2px solid #eee;">
+
+      <!-- BLOCS INSTRUCTIONS -->
+      <div class="row text-left">
+        <div class="col-sm-6" style="margin-bottom: 20px;">
+          <div class="info-box bg-gray-light" style="box-shadow: none; border: 1px solid #ddd; border-radius: 6px; min-height: 100px; height: auto; padding: 15px;">
+            <span class="info-box-icon" style="background-color: #00A3E0; color: white; border-radius: 4px; height: 70px; line-height: 70px; width: 70px; font-size: 35px; display: inline-block; text-center; float: left;">
+              <i class="fa fa-mobile" style="margin-left: 22px; margin-top: 18px;" onclick="triggerPwaInstallation(event)"></i>
+            </span>
+            <div class="info-box-content" style="margin-left: 85px; padding: 0;">
+              <span class="info-box-number" style="font-size: 18px; margin-bottom: 5px; color: #252830;">Sur votre Smartphone</span>
+              <span class="info-box-text" style="white-space: normal; text-transform: none; color: #666; font-size: 13px; line-height: 1.4;">
+                Ouvrez le menu de votre navigateur (Chrome / Safari) et appuyez sur <strong>"Ajouter à l’écran d’accueil"</strong>.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6" style="margin-bottom: 20px;">
+          <div class="info-box bg-gray-light" style="box-shadow: none; border: 1px solid #ddd; border-radius: 6px; min-height: 100px; height: auto; padding: 15px;">
+            <span class="info-box-icon" style="background-color: #FF6600; color: white; border-radius: 4px; height: 70px; line-height: 70px; width: 70px; font-size: 35px; display: inline-block; text-center; float: left;">
+              <i class="fa fa-desktop" style="margin-left: 16px; margin-top: 18px;" onclick="triggerPwaInstallation(event)"></i>
+            </span>
+            <div class="info-box-content" style="margin-left: 85px; padding: 0;">
+              <span class="info-box-number" style="font-size: 18px; margin-bottom: 5px; color: #252830;">Sur votre Ordinateur</span>
+              <span class="info-box-text" style="white-space: normal; text-transform: none; color: #666; font-size: 13px; line-height: 1.4;">
+                Cliquez simplement sur la petite icône d’installation en forme d'écran présente tout à droite dans <strong>votre barre d’adresse</strong>.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 35px;">
+        <a href="/" style="font-size: 15px; text-decoration: underline; font-weight: 600; color: #00A3E0;">
+          <i class="fa fa-arrow-left"></i> Retourner au tableau de bord
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  // Variable globale pour stocker l'événement système d'installation
+  let deferredPrompt;
+
+  // Écoute l'événement envoyé par le navigateur quand l'application est prête à être installée
+  window.addEventListener('beforeinstallprompt', (e) => {
+    // Empêche le navigateur d'afficher sa propre petite bannière automatique en bas
+    e.preventDefault();
+    // Garde l'événement en mémoire pour l'utiliser plus tard sur notre bouton
+    deferredPrompt = e;
+    console.log("DeviSys est prête à être installée !");
+  });
+
+  // Fonction déclenchée lors du clic sur votre bouton orange géant
+  function triggerPwaInstallation(event) {
+    if (!deferredPrompt) {
+      alert("L'application DeviSys est déjà installée ou votre navigateur ne supporte pas l'installation directe. Utilisez le menu de votre navigateur.");
+      return;
+    }
+    
+    // Déclenche l'apparition de la fenêtre d'installation native de Google Chrome / Android
+    deferredPrompt.prompt();
+    
+    // Attend la réponse de l'utilisateur (Accepté ou Refusé)
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('L\'utilisateur a installé DeviSys !');
+      } else {
+        console.log('L\'utilisateur a annulé l\'installation.');
+      }
+      // On vide la variable, l'événement ne pouvant servir qu'une seule fois
+      deferredPrompt = null;
+    });
+  }
+
+  // Optionnel : Détecter si l'application a bien été installée avec succès
+  window.addEventListener('appinstalled', (evt) => {
+    console.log('DeviSys a été installée avec succès sur l\'appareil !');
+    alert("Félicitations ! DeviSys est maintenant installée sur votre écran d'accueil.");
+  });
+</script>
+
+{% endblock %}

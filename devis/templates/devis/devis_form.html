@@ -1,0 +1,242 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block title %}{% if is_update %}Modifier le devis{% else %}Créer un devis{% endif %}{% endblock %}
+
+{% block content %}
+<!-- EN-TÊTE DE LA PAGE -->
+<section class="content-header">
+  <h1>
+    Gestion des Devis
+    <small>{% if is_update %}Modification de document{% else %}Nouveau document{% endif %}</small>
+  </h1>
+</section>
+
+<!-- CONTENU PRINCIPAL -->
+<div class="row" style="margin-top: 15px;">
+  <div class="col-xs-12">
+    <form method="post" id="devis-form">
+      {% csrf_token %}
+      
+      <!-- BLOC 1 : INFORMATIONS GÉNÉRALES -->
+      <div class="box box-primary">
+        <div class="box-header with-border">
+          <h3 class="box-title"><i class="fa fa-file-text-o"></i> Informations Générales & Contexte</h3>
+        </div>
+        <div class="box-body">
+          <div class="row">
+            {% for field in form %}
+            <div class="col-md-6">
+              <div class="form-group {% if field.errors %}has-error{% endif %}">
+                <label>{{ field.label }}</label>
+                {{ field }}
+                {% if field.help_text %}
+                  <p class="help-block text-muted" style="font-size: 12px; margin-top: 2px;">{{ field.help_text }}</p>
+                {% endif %}
+                {% for error in field.errors %}
+                  <span class="help-block"><i class="fa fa-times-circle-o"></i> {{ error }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!-- BLOC 2 : LIGNES DU DEVIS -->
+      <div class="box box-solid box-default">
+        <div class="box-header with-border">
+          <h3 class="box-title"><i class="fa fa-list"></i> Lignes d'articles / Prestations</h3>
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-success btn-sm btn-flat" id="add-line">
+              <i class="fa fa-plus"></i> Ajouter une ligne
+            </button>
+          </div>
+        </div>
+        
+        <div class="box-body table-responsive no-padding">
+          {{ formset.management_form }}
+          <table class="table table-hover table-bordered" style="margin-bottom: 0;">
+            <thead>
+              <tr class="bg-gray">
+                <th>Désignation & Description</th>
+                <th style="width: 130px;">Unité</th>
+                <th style="width: 100px;">Quantité</th>
+                <th style="width: 130px;">PU HT</th>
+                <th style="width: 90px;">TVA %</th>
+                <th style="width: 90px;">Remise %</th>
+                <th style="width: 70px;" class="text-center">Suppr.</th>
+              </tr>
+            </thead>
+            <tbody id="lines-body">
+              {% for f in formset.forms %}
+              <tr class="form-row">
+                <!-- Inclusion des champs cachés requis par Django (ID de la ligne) -->
+                {% for hidden in f.hidden_fields %}{{ hidden }}{% endfor %}
+                <td>
+                  {{ f.designation }}
+                  <div style="margin-top: 4px;">{{ f.description }}</div>
+                </td>
+                <td>{{ f.unite }}</td>
+                <td>{{ f.qte }}</td>
+                <td>{{ f.pu_ht }}</td>
+                <td>{{ f.taux_tva }}</td>
+                <td>{{ f.remise_pourcentage }}</td>
+                <td class="text-center" style="vertical-align: middle;">
+                  {% if formset.can_delete %}
+                    {{ f.DELETE }}
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <div class="box-footer">
+          <p class="text-muted" style="margin-bottom: 0;">
+            <i class="fa fa-lightbulb-o text-warning"></i> <strong>Astuce :</strong> Vérifiez bien vos prix unitaires et vos taux de TVA avant d'enregistrer. Le calcul des totaux s'effectue automatiquement.
+          </p>
+        </div>
+      </div>
+
+      <!-- SCRIPT DU GESTIONNAIRE DYNAMIQUE (TEMPLATE HTML) -->
+      <template id="empty-form-template">
+        <tr class="form-row">
+          <td>
+            {{ formset.empty_form.designation }}
+            <div style="margin-top: 4px;">{{ formset.empty_form.description }}</div>
+          </td>
+          <td>{{ formset.empty_form.unite }}</td>
+          <td>{{ formset.empty_form.qte }}</td>
+          <td>{{ formset.empty_form.pu_ht }}</td>
+          <td>{{ formset.empty_form.taux_tva }}</td>
+          <td>{{ formset.empty_form.remise_pourcentage }}</td>
+          <td class="text-center" style="vertical-align: middle;">
+            {{ formset.empty_form.DELETE }}
+          </td>
+        </tr>
+      </template>
+
+      <!-- BLOC 3 : BOUTONS D'ACTIONS -->
+      <div class="row" style="margin-bottom: 30px;">
+        <div class="col-xs-12 clearfix">
+          <div class="pull-left">
+            <button type="submit" class="btn btn-primary btn-lg btn-flat">
+              <i class="fa fa-save"></i> {% if is_update %}Mettre à jour{% else %}Enregistrer le devis{% endif %}
+            </button>
+            <a href="{% url 'devis:list' %}" class="btn btn-default btn-lg btn-flat" style="margin-left: 10px;">Annuler</a>
+          </div>
+          {% if is_update and devis %}
+          <div class="pull-right">
+            <a href="{% url 'devis:delete' devis.pk %}" class="btn btn-danger btn-lg btn-flat">
+              <i class="fa fa-trash"></i> Supprimer
+            </a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+<!-- INJECTION DU STYLE CSS -->
+<style>
+  #devis-form input, #devis-form select, #devis-form textarea {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  #devis-form textarea { 
+    height: 34px; /* Garder compact par défaut */
+    resize: vertical;
+  }
+  #devis-form textarea:focus {
+    height: 80px; /* S'agrandit pour la saisie de spécifications */
+  }
+  #devis-form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    box-shadow: none;
+  }
+</style>
+
+<!-- SCRIPTS JAVASCRIPT GESTION DYNAMIQUE & SYNCHRONISME OFFLINE -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var addButton = document.getElementById('add-line');
+    
+    // Essaye d'identifier le sélecteur avec le préfixe de votre InlineFormset (souvent 'lines' ou 'lignedevis_set')
+    var totalForms = document.getElementById('id_lines-TOTAL_FORMS') || 
+                     document.getElementById('id_lignedevis_set-TOTAL_FORMS') || 
+                     document.getElementById('id_form-TOTAL_FORMS');
+
+    if(addButton && totalForms) {
+      addButton.addEventListener('click', function() {
+        var currentFormCount = parseInt(totalForms.value);
+        var template = document.getElementById('empty-form-template').innerHTML;
+        
+        var expression = /__prefix__/g;
+        var newFormHtml = template.replace(expression, currentFormCount);
+        
+        document.getElementById('lines-body').insertAdjacentHTML('beforeend', newFormHtml);
+        totalForms.value = currentFormCount + 1;
+      });
+    }
+
+    // --- LOGIQUE BASE DE DONNÉES OFFLINE (INDEXEDDB) ---
+    const request = indexedDB.open("DeviSysOfflineDB", 1);
+    let db;
+
+    request.onupgradeneeded = function(e) {
+      db = e.target.result;
+      if (!db.objectStoreNames.contains("devis_en_attente")) {
+        db.createObjectStore("devis_en_attente", { autoIncrement: true });
+      }
+    };
+
+    request.onsuccess = function(e) { 
+      db = e.target.result; 
+    };
+
+    // Gestion de la soumission globale
+    const formEl = document.getElementById('devis-form');
+    formEl.addEventListener('submit', function(event) {
+      // Si l'utilisateur est hors-ligne, on intercepte pour sauvegarder localement
+      if (!navigator.onLine) {
+        event.preventDefault();
+        
+        const donneesDevis = {
+          client: document.getElementById('id_client') ? document.getElementById('id_client').value : '',
+          objet: document.getElementById('id_objet') ? document.getElementById('id_objet').value : '',
+          type_template: document.getElementById('id_type_template') ? document.getElementById('id_type_template').value : 'entreprise',
+          devise: document.getElementById('id_devise') ? document.getElementById('id_devise').value : 'XAF',
+          date_sauvegarde_locale: new Date().toISOString()
+        };
+
+        const transaction = db.transaction(["devis_en_attente"], "readwrite");
+        const store = transaction.objectStore("devis_en_attente");
+        store.add(donneesDevis);
+        
+        alert("📍 Mode hors-ligne : Votre formulaire général a été mis en sécurité localement. Vos données de session seront synchronisées dès la reconnexion !");
+      }
+    });
+
+    // Détection automatique du retour d'internet pour la synchronisation
+    window.addEventListener('online', function() {
+      console.log("🌐 Connexion Internet rétablie. Prêt à synchroniser les documents...");
+      // Optionnel : Vous pouvez ajouter une logique Ajax de traitement en arrière-plan ici.
+    });
+  });
+</script>
+{% endblock %}

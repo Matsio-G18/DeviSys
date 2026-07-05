@@ -1,0 +1,17 @@
+{
+  "name": "DeviSys Mobile",
+  "short_name": "DeviSys",
+  "description": "Générez et pilotez vos devis professionnels sur WhatsApp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#222d32",
+  "theme_color": "#3c8dbc",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://flaticon.com",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

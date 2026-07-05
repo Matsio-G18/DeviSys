@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(135deg, #082032 0%, #1f4068 55%, #165a8c 100%);
+  color: #f1f1f1;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 18px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+}
+
+nav a, nav span {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 24px;
+}
+
+.card {
+  width: min(1100px, 100%);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+h1, h3 {
+  margin-top: 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  background: #ffd166;
+  color: #0f172a;
+  padding: 10px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+
+.btn-danger {
+  background: #ef4444;
+  color: #fff;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.data-table th,
+.data-table td {
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.data-table th {
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.form-actions {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.devis-row-actions {
+  margin: 12px 0;
+}
+
+.hint {
+  margin-top: 12px;
+  color: rgba(255,255,255,0.72);
+}
+
+input, select {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.06);
+  color: #f8fafc;
+  padding: 10px 12px;
+}
+
+input:focus, select:focus {
+  outline: 2px solid rgba(255,209,102,0.65);
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  color: rgba(255,255,255,0.72);
+}
+
+@media (max-width: 700px) {
+  header { padding: 16px; }
+  main { padding: 18px; }
+  .card { padding: 20px; }
+}

@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Connexion Sécurisée — DeviSys</title>
+    <!-- Responsive design -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="{% static 'AdminLTE/bower_components/bootstrap/dist/css/bootstrap.min.css' %}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'AdminLTE/bower_components/font-awesome/css/font-awesome.min.css' %}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{% static 'AdminLTE/dist/css/AdminLTE.min.css' %}">
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://googleapis.com">
+
+    <style>
+      /* Arrière-plan transparent superposé (Overlay) */
+      .login-page-bg {
+        background: linear-gradient(rgba(20, 30, 48, 0.75), rgba(36, 59, 85, 0.75)), 
+        url('{% static "images/ttttt.jpg" %}') no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .login-logo a {
+        color: #ffffff !important;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        font-weight: 700;
+      }
+      .login-box {
+        margin: 0 !important;
+      }
+      .login-box-body {
+        border-radius: 8px; 
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+        background: #ffffff;
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body class="hold-transition login-page login-page-bg">
+    <div class="login-box">
+      
+      <div class="login-logo">
+        <a href="#"><b>Devi</b>Sys</a>
+      </div>
+      
+      <div class="login-box-body">
+        <p class="login-box-msg text-muted"><i class="fa fa-lock text-primary"></i> Espace d'authentification sécurisé</p>
+
+        <!-- ALERTES DE SÉCURITÉ / ERREURS TRANSPARENTES -->
+        {% if form.errors %}
+        <div class="alert alert-danger alert-dismissible" style="font-size: 13px; border-radius: 4px;">
+          <h4><i class="icon fa fa-ban"></i> Erreur d'accès</h4>
+          Le nom d'utilisateur ou le mot de passe est incorrect. Veuillez vérifier vos accès.
+        </div>
+        {% endif %}
+
+        <!-- FORMULAIRE AVEC JETON DE VÉRIFICATION CSRF -->
+        <form method="post" action="{% url 'login' %}" id="auth-form">
+          {% csrf_token %}
+          
+          <!-- Identifiant -->
+          <div class="form-group has-feedback {% if form.errors %}has-error{% endif %}">
+            <label class="control-label sr-only" for="username">Utilisateur</label>
+            <input type="text" name="username" id="username" class="form-control input-lg" placeholder="Nom d'utilisateur" required autofocus>
+            <span class="fa fa-user form-control-feedback" style="line-height: 46px;"></span>
+          </div>
+          
+          <!-- Mot de passe -->
+          <div class="form-group has-feedback {% if form.errors %}has-error{% endif %}">
+            <label class="control-label sr-only" for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Mot de passe" required>
+            <span class="fa fa-lock form-control-feedback" style="line-height: 46px;"></span>
+          </div>
+          
+          <!-- Paramètre de redirection transparente -->
+          <input type="hidden" name="next" value="{{ next|default:'/' }}">
+
+          <!-- Validation de session -->
+          <div class="row" style="margin-top: 25px;">
+            <div class="col-xs-12">
+              <button type="submit" class="btn btn-primary btn-block btn-flat btn-lg" style="border-radius: 4px; font-weight: 600;">
+                <i class="fa fa-sign-in"></i> Initialiser la session
+              </button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+      
+      <!-- Pied de page -->
+      <p class="text-center" style="margin-top: 20px; font-size: 11px; color: #dfdfdf; text-shadow: 0 1px 2px rgba(0,0,0,0.4); letter-spacing: 0.5px;">
+        <i class="fa fa-shield"></i> Connexion chiffrée &copy; 2026 DeviSys
+      </p>
+    </div>
+
+    <!-- SCRIPTS DE BASE -->
+    <script src="{% static 'AdminLTE/bower_components/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'AdminLTE/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

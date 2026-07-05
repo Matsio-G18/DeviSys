@@ -1,0 +1,2748 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "pwa",
+        "description": "pwa",
+        "isExtraImport": true,
+        "detail": "pwa",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "pwa",
+        "description": "pwa",
+        "isExtraImport": true,
+        "detail": "pwa",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "inlineformset_factory",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "importPath": "reportlab.lib.pagesizes",
+        "description": "reportlab.lib.pagesizes",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.pagesizes",
+        "documentation": {}
+    },
+    {
+        "label": "A4",
+        "importPath": "reportlab.lib.pagesizes",
+        "description": "reportlab.lib.pagesizes",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.pagesizes",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleDocTemplate",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Paragraph",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Spacer",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "TableStyle",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleDocTemplate",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Paragraph",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Spacer",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "TableStyle",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "getSampleStyleSheet",
+        "importPath": "reportlab.lib.styles",
+        "description": "reportlab.lib.styles",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.styles",
+        "documentation": {}
+    },
+    {
+        "label": "ParagraphStyle",
+        "importPath": "reportlab.lib.styles",
+        "description": "reportlab.lib.styles",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.styles",
+        "documentation": {}
+    },
+    {
+        "label": "getSampleStyleSheet",
+        "importPath": "reportlab.lib.styles",
+        "description": "reportlab.lib.styles",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.styles",
+        "documentation": {}
+    },
+    {
+        "label": "ParagraphStyle",
+        "importPath": "reportlab.lib.styles",
+        "description": "reportlab.lib.styles",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.styles",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "reportlab.lib",
+        "description": "reportlab.lib",
+        "isExtraImport": true,
+        "detail": "reportlab.lib",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "reportlab.lib",
+        "description": "reportlab.lib",
+        "isExtraImport": true,
+        "detail": "reportlab.lib",
+        "documentation": {}
+    },
+    {
+        "label": "Devis",
+        "importPath": "devis.models",
+        "description": "devis.models",
+        "isExtraImport": true,
+        "detail": "devis.models",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
+        "label": "sys,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.",
+        "description": "sys.",
+        "detail": "sys.",
+        "documentation": {}
+    },
+    {
+        "label": "sphinx_rtd_theme",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sphinx_rtd_theme",
+        "description": "sphinx_rtd_theme",
+        "detail": "sphinx_rtd_theme",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "shapely.geometry",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "shapely.wkb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shapely.wkb",
+        "description": "shapely.wkb",
+        "detail": "shapely.wkb",
+        "documentation": {}
+    },
+    {
+        "label": "shapely.affinity",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shapely.affinity",
+        "description": "shapely.affinity",
+        "detail": "shapely.affinity",
+        "documentation": {}
+    },
+    {
+        "label": "ogr",
+        "importPath": "osgeo",
+        "description": "osgeo",
+        "isExtraImport": true,
+        "detail": "osgeo",
+        "documentation": {}
+    },
+    {
+        "label": "osr",
+        "importPath": "osgeo",
+        "description": "osgeo",
+        "isExtraImport": true,
+        "detail": "osgeo",
+        "documentation": {}
+    },
+    {
+        "label": "ogr",
+        "importPath": "osgeo",
+        "description": "osgeo",
+        "isExtraImport": true,
+        "detail": "osgeo",
+        "documentation": {}
+    },
+    {
+        "label": "osr",
+        "importPath": "osgeo",
+        "description": "osgeo",
+        "isExtraImport": true,
+        "detail": "osgeo",
+        "documentation": {}
+    },
+    {
+        "label": "ogr",
+        "importPath": "osgeo",
+        "description": "osgeo",
+        "isExtraImport": true,
+        "detail": "osgeo",
+        "documentation": {}
+    },
+    {
+        "label": "osr",
+        "importPath": "osgeo",
+        "description": "osgeo",
+        "isExtraImport": true,
+        "detail": "osgeo",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "codecs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "codecs",
+        "description": "codecs",
+        "detail": "codecs",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "shapely.ops",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shapely.ops",
+        "description": "shapely.ops",
+        "detail": "shapely.ops",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inspect",
+        "description": "inspect",
+        "detail": "inspect",
+        "documentation": {}
+    },
+    {
+        "label": "Grammar",
+        "importPath": "booleano.parser",
+        "description": "booleano.parser",
+        "isExtraImport": true,
+        "detail": "booleano.parser",
+        "documentation": {}
+    },
+    {
+        "label": "EvaluableParseManager",
+        "importPath": "booleano.parser",
+        "description": "booleano.parser",
+        "isExtraImport": true,
+        "detail": "booleano.parser",
+        "documentation": {}
+    },
+    {
+        "label": "SymbolTable",
+        "importPath": "booleano.parser",
+        "description": "booleano.parser",
+        "isExtraImport": true,
+        "detail": "booleano.parser",
+        "documentation": {}
+    },
+    {
+        "label": "Bind",
+        "importPath": "booleano.parser",
+        "description": "booleano.parser",
+        "isExtraImport": true,
+        "detail": "booleano.parser",
+        "documentation": {}
+    },
+    {
+        "label": "Variable",
+        "importPath": "booleano.operations",
+        "description": "booleano.operations",
+        "isExtraImport": true,
+        "detail": "booleano.operations",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "anyjson",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "anyjson",
+        "description": "anyjson",
+        "detail": "anyjson",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "app_devis.asgi",
+        "description": "app_devis.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "app_devis.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# ==============================================================================\n# CONFIGURATION DE SÉCURITÉ ET DÉVELOPPEMENT\n# ==============================================================================\nSECRET_KEY = 'django-insecure-_8g9#=a83&pntpwnprx)=c%3b3z*a0s-nh5mf7qw)wl)cb2e1x'\nDEBUG = True\n# Autoriser localhost et l'IP locale pour le développement et les tests PWA\nALLOWED_HOSTS = ['127.0.0.1', 'localhost', '[::1]']\n# ==============================================================================\n# APPLICATIONS ET MIDDLEWARES",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-_8g9#=a83&pntpwnprx)=c%3b3z*a0s-nh5mf7qw)wl)cb2e1x'\nDEBUG = True\n# Autoriser localhost et l'IP locale pour le développement et les tests PWA\nALLOWED_HOSTS = ['127.0.0.1', 'localhost', '[::1]']\n# ==============================================================================\n# APPLICATIONS ET MIDDLEWARES\n# ==============================================================================\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "DEBUG = True\n# Autoriser localhost et l'IP locale pour le développement et les tests PWA\nALLOWED_HOSTS = ['127.0.0.1', 'localhost', '[::1]']\n# ==============================================================================\n# APPLICATIONS ET MIDDLEWARES\n# ==============================================================================\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '[::1]']\n# ==============================================================================\n# APPLICATIONS ET MIDDLEWARES\n# ==============================================================================\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # Vos applications locales\n    'core',",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',  # Protection CSRF active\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'app_devis.urls'",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "ROOT_URLCONF = 'app_devis.urls'\n# ==============================================================================\n# TEMPLATES ET INTERFACES GRAPHIQUES\n# ==============================================================================\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'], # Activation du dossier global de templates\n        'APP_DIRS': True,\n        'OPTIONS': {",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'], # Activation du dossier global de templates\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'app_devis.wsgi.application'\n# ==============================================================================\n# BASE DE DONNÉES (SQLite3 pour le développement)\n# ==============================================================================\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# ==============================================================================\n# VALIDATION DES MOTS DE PASSE\n# ==============================================================================\nAUTH_PASSWORD_VALIDATORS = [",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator'},\n    {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'},\n]\n# ==============================================================================\n# INTERNATIONALISATION (Passage en Français & Fuseau Horaire Congo)\n# ==============================================================================\nLANGUAGE_CODE = 'fr-fr' # Formulaires et messages d'erreur système en Français",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'fr-fr' # Formulaires et messages d'erreur système en Français\nTIME_ZONE = 'Africa/Brazzaville' # Heure locale pour l'émission des devis\nUSE_I18N = True\nUSE_TZ = True\n# ==============================================================================\n# GESTION DES FICHIERS STATIQUES (CSS, JS, AdminLTE)\n# ==============================================================================\nSTATIC_URL = 'static/'\n# Emplacements des assets en développement\nSTATICFILES_DIRS = [",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "TIME_ZONE = 'Africa/Brazzaville' # Heure locale pour l'émission des devis\nUSE_I18N = True\nUSE_TZ = True\n# ==============================================================================\n# GESTION DES FICHIERS STATIQUES (CSS, JS, AdminLTE)\n# ==============================================================================\nSTATIC_URL = 'static/'\n# Emplacements des assets en développement\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# ==============================================================================\n# GESTION DES FICHIERS STATIQUES (CSS, JS, AdminLTE)\n# ==============================================================================\nSTATIC_URL = 'static/'\n# Emplacements des assets en développement\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "USE_TZ = True\n# ==============================================================================\n# GESTION DES FICHIERS STATIQUES (CSS, JS, AdminLTE)\n# ==============================================================================\nSTATIC_URL = 'static/'\n# Emplacements des assets en développement\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Dossier de destination pour la production (requis par collectstatic)",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Emplacements des assets en développement\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Dossier de destination pour la production (requis par collectstatic)\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# ==============================================================================\n# CONFIGURATION DES REDIRECTIONS D'AUTHENTIFICATION (AUTHENTICATION)\n# ==============================================================================",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / 'static',\n]\n# Dossier de destination pour la production (requis par collectstatic)\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n# ==============================================================================\n# CONFIGURATION DES REDIRECTIONS D'AUTHENTIFICATION (AUTHENTICATION)\n# ==============================================================================\nLOGIN_URL = 'login'\nLOGIN_REDIRECT_URL = '/'  # Redirige explicitement vers la racine après succès",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\n# ==============================================================================\n# CONFIGURATION DES REDIRECTIONS D'AUTHENTIFICATION (AUTHENTICATION)\n# ==============================================================================\nLOGIN_URL = 'login'\nLOGIN_REDIRECT_URL = '/'  # Redirige explicitement vers la racine après succès\nLOGOUT_REDIRECT_URL = 'login'\n# ==============================================================================\n# CORRECTIF ERREUR CSRF / POLITIQUES DE COOKIES (Sécurité locale)\n# ==============================================================================",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "LOGIN_URL = 'login'\nLOGIN_REDIRECT_URL = '/'  # Redirige explicitement vers la racine après succès\nLOGOUT_REDIRECT_URL = 'login'\n# ==============================================================================\n# CORRECTIF ERREUR CSRF / POLITIQUES DE COOKIES (Sécurité locale)\n# ==============================================================================\n# Assure la compatibilité des jetons d'identification sur le port de développement 8000\nCSRF_COOKIE_SAMESITE = 'Lax'\nSESSION_COOKIE_SAMESITE = 'Lax'\nCSRF_COOKIE_HTTPONLY = False  # Permet à l'interface de lire le jeton lors des requêtes POST",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'  # Redirige explicitement vers la racine après succès\nLOGOUT_REDIRECT_URL = 'login'\n# ==============================================================================\n# CORRECTIF ERREUR CSRF / POLITIQUES DE COOKIES (Sécurité locale)\n# ==============================================================================\n# Assure la compatibilité des jetons d'identification sur le port de développement 8000\nCSRF_COOKIE_SAMESITE = 'Lax'\nSESSION_COOKIE_SAMESITE = 'Lax'\nCSRF_COOKIE_HTTPONLY = False  # Permet à l'interface de lire le jeton lors des requêtes POST\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'login'\n# ==============================================================================\n# CORRECTIF ERREUR CSRF / POLITIQUES DE COOKIES (Sécurité locale)\n# ==============================================================================\n# Assure la compatibilité des jetons d'identification sur le port de développement 8000\nCSRF_COOKIE_SAMESITE = 'Lax'\nSESSION_COOKIE_SAMESITE = 'Lax'\nCSRF_COOKIE_HTTPONLY = False  # Permet à l'interface de lire le jeton lors des requêtes POST\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# ==============================================================================",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_COOKIE_SAMESITE",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "CSRF_COOKIE_SAMESITE = 'Lax'\nSESSION_COOKIE_SAMESITE = 'Lax'\nCSRF_COOKIE_HTTPONLY = False  # Permet à l'interface de lire le jeton lors des requêtes POST\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# ==============================================================================\n# CONFIGURATION DES ENVOIS D'EMAILS\n# ==============================================================================\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'                # Serveur SMTP de votre fournisseur\nEMAIL_PORT = 587                             # Port standard sécurisé",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SESSION_COOKIE_SAMESITE",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "SESSION_COOKIE_SAMESITE = 'Lax'\nCSRF_COOKIE_HTTPONLY = False  # Permet à l'interface de lire le jeton lors des requêtes POST\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# ==============================================================================\n# CONFIGURATION DES ENVOIS D'EMAILS\n# ==============================================================================\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'                # Serveur SMTP de votre fournisseur\nEMAIL_PORT = 587                             # Port standard sécurisé\nEMAIL_USE_TLS = True                         # Chiffrement requis",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_COOKIE_HTTPONLY",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "CSRF_COOKIE_HTTPONLY = False  # Permet à l'interface de lire le jeton lors des requêtes POST\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# ==============================================================================\n# CONFIGURATION DES ENVOIS D'EMAILS\n# ==============================================================================\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'                # Serveur SMTP de votre fournisseur\nEMAIL_PORT = 587                             # Port standard sécurisé\nEMAIL_USE_TLS = True                         # Chiffrement requis\nEMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# ==============================================================================\n# CONFIGURATION DES ENVOIS D'EMAILS\n# ==============================================================================\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'                # Serveur SMTP de votre fournisseur\nEMAIL_PORT = 587                             # Port standard sécurisé\nEMAIL_USE_TLS = True                         # Chiffrement requis\nEMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle\nEMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'                # Serveur SMTP de votre fournisseur\nEMAIL_PORT = 587                             # Port standard sécurisé\nEMAIL_USE_TLS = True                         # Chiffrement requis\nEMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle\nEMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application\nDEFAULT_FROM_EMAIL = f\"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>\"\n# Configuration de Jazzmin\nJAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'                # Serveur SMTP de votre fournisseur\nEMAIL_PORT = 587                             # Port standard sécurisé\nEMAIL_USE_TLS = True                         # Chiffrement requis\nEMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle\nEMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application\nDEFAULT_FROM_EMAIL = f\"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>\"\n# Configuration de Jazzmin\nJAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur\n    \"site_title\": \"Don & Gloire - Devis\",",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "EMAIL_PORT = 587                             # Port standard sécurisé\nEMAIL_USE_TLS = True                         # Chiffrement requis\nEMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle\nEMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application\nDEFAULT_FROM_EMAIL = f\"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>\"\n# Configuration de Jazzmin\nJAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur\n    \"site_title\": \"Don & Gloire - Devis\",\n    # Titre sur l'écran de connexion",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True                         # Chiffrement requis\nEMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle\nEMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application\nDEFAULT_FROM_EMAIL = f\"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>\"\n# Configuration de Jazzmin\nJAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur\n    \"site_title\": \"Don & Gloire - Devis\",\n    # Titre sur l'écran de connexion\n    \"site_header\": \"Application Devis\",",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'donimatsiona@gmail.com'  # Votre adresse e-mail professionnelle\nEMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application\nDEFAULT_FROM_EMAIL = f\"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>\"\n# Configuration de Jazzmin\nJAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur\n    \"site_title\": \"Don & Gloire - Devis\",\n    # Titre sur l'écran de connexion\n    \"site_header\": \"Application Devis\",\n    # Texte de marque en haut à gauche",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'dxpb ocjz eqzh aazf' # Clé secrète d'application\nDEFAULT_FROM_EMAIL = f\"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>\"\n# Configuration de Jazzmin\nJAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur\n    \"site_title\": \"Don & Gloire - Devis\",\n    # Titre sur l'écran de connexion\n    \"site_header\": \"Application Devis\",\n    # Texte de marque en haut à gauche\n    \"site_brand\": \"Devis Manager\",",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = f\"Don & Gloire - DeviSys Solutions <{EMAIL_HOST_USER}>\"\n# Configuration de Jazzmin\nJAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur\n    \"site_title\": \"Don & Gloire - Devis\",\n    # Titre sur l'écran de connexion\n    \"site_header\": \"Application Devis\",\n    # Texte de marque en haut à gauche\n    \"site_brand\": \"Devis Manager\",\n    # Message de bienvenue sur l'écran de connexion",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JAZZMIN_SETTINGS",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "JAZZMIN_SETTINGS = {\n    # Titre de la fenêtre du navigateur\n    \"site_title\": \"Don & Gloire - Devis\",\n    # Titre sur l'écran de connexion\n    \"site_header\": \"Application Devis\",\n    # Texte de marque en haut à gauche\n    \"site_brand\": \"Devis Manager\",\n    # Message de bienvenue sur l'écran de connexion\n    \"welcome_sign\": \"Bienvenue dans votre gestionnaire de devis\",\n    # Droits d'auteur dans le pied de page",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JAZZMIN_UI_TWEAKS",
+        "kind": 5,
+        "importPath": "app_devis.settings",
+        "description": "app_devis.settings",
+        "peekOfCode": "JAZZMIN_UI_TWEAKS = {\n    # Thème général clair et professionnel\n    \"theme\": \"corporate\",\n    # Barre du haut en Bleu Foncé (Style Navy)\n    \"navbar\": \"navbar-dark bg-primary\",\n    # Liens ou éléments actifs colorés avec votre Orange Foncé\n    \"brand_colour\": \"navbar-orange\",\n    # Menu latéral gauche en style sombre pour faire ressortir le texte\n    \"sidebar\": \"sidebar-dark-primary\",\n    # Accentuation des boutons et liens sur l'Orange Foncé",
+        "detail": "app_devis.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app_devis.urls",
+        "description": "app_devis.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login'),\n    path('logout/', auth_views.LogoutView.as_view(next_page='login'), name='logout'),\n    path('accounts/', include('django.contrib.auth.urls')),\n    path('clients/', include('clients.urls')),\n    path('devis/', include('devis.urls')),\n    path('', include('core.urls')),\n    path('', include('pwa.urls')),\n    path('pdf/', include('pdfgen.urls')),",
+        "detail": "app_devis.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "app_devis.wsgi",
+        "description": "app_devis.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "app_devis.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "clients.migrations.0001_initial",
+        "description": "clients.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Client',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('type', models.CharField(choices=[('particulier', 'Particulier'), ('ong', 'ONG'), ('entreprise', 'Entreprise')])),",
+        "detail": "clients.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "clients.migrations.0002_alter_client_adresse_alter_client_agrement_ong_and_more",
+        "description": "clients.migrations.0002_alter_client_adresse_alter_client_agrement_ong_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('clients', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='client',\n            name='adresse',\n            field=models.CharField(max_length=200),\n        ),",
+        "detail": "clients.migrations.0002_alter_client_adresse_alter_client_agrement_ong_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "clients.migrations.0003_client_code",
+        "description": "clients.migrations.0003_client_code",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('clients', '0002_alter_client_adresse_alter_client_agrement_ong_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='client',\n            name='code',\n            field=models.CharField(blank=True, editable=False, max_length=50, null=True, unique=True),\n        ),",
+        "detail": "clients.migrations.0003_client_code",
+        "documentation": {}
+    },
+    {
+        "label": "ClientsConfig",
+        "kind": 6,
+        "importPath": "clients.apps",
+        "description": "clients.apps",
+        "peekOfCode": "class ClientsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'clients'",
+        "detail": "clients.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "kind": 6,
+        "importPath": "clients.models",
+        "description": "clients.models",
+        "peekOfCode": "class Client(models.Model):\n    TYPE_CHOICES = [\n        ('particulier','Particulier'),\n        ('ong','ONG'),\n        ('entreprise','Entreprise')\n    ]\n    code = models.CharField(\n        max_length=50, \n        unique=True, \n        editable=False, # Masqué dans l'admin car automatique",
+        "detail": "clients.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "clients.urls",
+        "description": "clients.urls",
+        "peekOfCode": "app_name = 'clients'\nurlpatterns = [\n\tpath('', views.client_list, name='list'),\n\tpath('<int:pk>/', views.client_detail, name='detail'),\n]",
+        "detail": "clients.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "clients.urls",
+        "description": "clients.urls",
+        "peekOfCode": "urlpatterns = [\n\tpath('', views.client_list, name='list'),\n\tpath('<int:pk>/', views.client_detail, name='detail'),\n]",
+        "detail": "clients.urls",
+        "documentation": {}
+    },
+    {
+        "label": "client_list",
+        "kind": 2,
+        "importPath": "clients.views",
+        "description": "clients.views",
+        "peekOfCode": "def client_list(request):\n\tclients = Client.objects.all()\n\treturn render(request, 'clients/client_list.html', {'clients': clients})\ndef client_detail(request, pk):\n\tclient = get_object_or_404(Client, pk=pk)\n\treturn render(request, 'clients/client_detail.html', {'client': client})",
+        "detail": "clients.views",
+        "documentation": {}
+    },
+    {
+        "label": "client_detail",
+        "kind": 2,
+        "importPath": "clients.views",
+        "description": "clients.views",
+        "peekOfCode": "def client_detail(request, pk):\n\tclient = get_object_or_404(Client, pk=pk)\n\treturn render(request, 'clients/client_detail.html', {'client': client})",
+        "detail": "clients.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tclients",
+        "kind": 5,
+        "importPath": "clients.views",
+        "description": "clients.views",
+        "peekOfCode": "\tclients = Client.objects.all()\n\treturn render(request, 'clients/client_list.html', {'clients': clients})\ndef client_detail(request, pk):\n\tclient = get_object_or_404(Client, pk=pk)\n\treturn render(request, 'clients/client_detail.html', {'client': client})",
+        "detail": "clients.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tclient",
+        "kind": 5,
+        "importPath": "clients.views",
+        "description": "clients.views",
+        "peekOfCode": "\tclient = get_object_or_404(Client, pk=pk)\n\treturn render(request, 'clients/client_detail.html', {'client': client})",
+        "detail": "clients.views",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "app_name = 'core'\nurlpatterns = [\n    path('', views.home, name='home'),\n    path('about/', views.about, name='about'),\n    # Routes indispensables pour la détection PWA\n    path('manifest.json', pwa_views.manifest, name='pwa_manifest'),\n    path('sw.js', pwa_views.service_worker, name='pwa_sw'),\n    path('installer/', pwa_views.install, name='pwa_install'),\n]",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home, name='home'),\n    path('about/', views.about, name='about'),\n    # Routes indispensables pour la détection PWA\n    path('manifest.json', pwa_views.manifest, name='pwa_manifest'),\n    path('sw.js', pwa_views.service_worker, name='pwa_sw'),\n    path('installer/', pwa_views.install, name='pwa_install'),\n]",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def home(request):\n\treturn render(request, 'core/home.html')\ndef about(request):\n    return render(request, 'core/about.html')",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def about(request):\n    return render(request, 'core/about.html')",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "devis.migrations.0001_initial",
+        "description": "devis.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('clients', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Devis',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "devis.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "devis.migrations.0002_lignedevis_montant_ht_alter_devis_numero_and_more",
+        "description": "devis.migrations.0002_lignedevis_montant_ht_alter_devis_numero_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('devis', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='lignedevis',\n            name='montant_ht',\n            field=models.DecimalField(decimal_places=2, default=0, max_digits=12),\n        ),",
+        "detail": "devis.migrations.0002_lignedevis_montant_ht_alter_devis_numero_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "devis.migrations.0003_remove_devis_date_remove_devis_validite_and_more",
+        "description": "devis.migrations.0003_remove_devis_date_remove_devis_validite_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('devis', '0002_lignedevis_montant_ht_alter_devis_numero_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='devis',\n            name='date',\n        ),\n        migrations.RemoveField(",
+        "detail": "devis.migrations.0003_remove_devis_date_remove_devis_validite_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "devis.migrations.0004_alter_lignedevis_options_lignedevis_description_and_more",
+        "description": "devis.migrations.0004_alter_lignedevis_options_lignedevis_description_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('devis', '0003_remove_devis_date_remove_devis_validite_and_more'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='lignedevis',\n            options={'verbose_name': 'Ligne de devis', 'verbose_name_plural': 'Lignes de devis'},\n        ),\n        migrations.AddField(",
+        "detail": "devis.migrations.0004_alter_lignedevis_options_lignedevis_description_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "LigneDevisInline",
+        "kind": 6,
+        "importPath": "devis.admin",
+        "description": "devis.admin",
+        "peekOfCode": "class LigneDevisInline(admin.TabularInline):\n    model = LigneDevis\n    extra = 1\n    fields = ['designation', 'description', 'unite', 'qte', 'pu_ht', 'remise_pourcentage', 'taux_tva', 'montant_ht', 'ordre']\n    readonly_fields = ['montant_ht']\n    ordering = ['ordre']\n@admin.register(Devis)\nclass DevisAdmin(admin.ModelAdmin):\n    # Remplacement de 'statut' par 'statut_badge' dans la liste\n    list_display = ['numero', 'client', 'objet', 'statut', 'total_ht', 'total_ttc', 'bouton_pdf']",
+        "detail": "devis.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DevisAdmin",
+        "kind": 6,
+        "importPath": "devis.admin",
+        "description": "devis.admin",
+        "peekOfCode": "class DevisAdmin(admin.ModelAdmin):\n    # Remplacement de 'statut' par 'statut_badge' dans la liste\n    list_display = ['numero', 'client', 'objet', 'statut', 'total_ht', 'total_ttc', 'bouton_pdf']\n    list_filter = ['statut', 'type_template', 'devise']\n    search_fields = ['numero', 'client__id', 'objet'] \n    readonly_fields = ['numero', 'total_ht', 'total_ttc', 'date_validite']\n    fieldsets = [\n        ('Informations Générales', {\n            'fields': ['numero', 'client', 'type_template', 'objet', 'statut']\n        }),",
+        "detail": "devis.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "devis.admin",
+        "description": "devis.admin",
+        "peekOfCode": "admin.site.site_header = \"Application Devis\"\nclass LigneDevisInline(admin.TabularInline):\n    model = LigneDevis\n    extra = 1\n    fields = ['designation', 'description', 'unite', 'qte', 'pu_ht', 'remise_pourcentage', 'taux_tva', 'montant_ht', 'ordre']\n    readonly_fields = ['montant_ht']\n    ordering = ['ordre']\n@admin.register(Devis)\nclass DevisAdmin(admin.ModelAdmin):\n    # Remplacement de 'statut' par 'statut_badge' dans la liste",
+        "detail": "devis.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DevisConfig",
+        "kind": 6,
+        "importPath": "devis.apps",
+        "description": "devis.apps",
+        "peekOfCode": "class DevisConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'devis'",
+        "detail": "devis.apps",
+        "documentation": {}
+    },
+    {
+        "label": "DevisForm",
+        "kind": 6,
+        "importPath": "devis.forms",
+        "description": "devis.forms",
+        "peekOfCode": "class DevisForm(forms.ModelForm):\n    class Meta:\n        model = Devis\n        fields = [\n            'client',\n            'type_template',\n            'objet',\n            'validite_jours',\n            'statut',\n            'reference_appel_offre',",
+        "detail": "devis.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LigneDevisForm",
+        "kind": 6,
+        "importPath": "devis.forms",
+        "description": "devis.forms",
+        "peekOfCode": "class LigneDevisForm(forms.ModelForm):\n    class Meta:\n        model = LigneDevis\n        fields = ['designation', 'qte', 'pu_ht', 'taux_tva']\n        widgets = {\n            'designation': forms.TextInput(attrs={'placeholder': 'Désignation'}),\n            'qte': forms.NumberInput(attrs={'step': '0.01'}),\n            'pu_ht': forms.NumberInput(attrs={'step': '0.01'}),\n            'taux_tva': forms.NumberInput(attrs={'step': '0.01'}),\n        }",
+        "detail": "devis.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LigneFormSet",
+        "kind": 5,
+        "importPath": "devis.forms",
+        "description": "devis.forms",
+        "peekOfCode": "LigneFormSet = inlineformset_factory(Devis, LigneDevis, form=LigneDevisForm, extra=3, can_delete=True)",
+        "detail": "devis.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Devis",
+        "kind": 6,
+        "importPath": "devis.models",
+        "description": "devis.models",
+        "peekOfCode": "class Devis(models.Model):\n    TEMPLATE_CHOICES = [\n        ('particulier', 'Particulier'),\n        ('ong', 'ONG'),\n        ('entreprise', 'Entreprise / Grande Structure'),\n    ]\n    STATUT_CHOICES = [\n        ('brouillon', 'Brouillon'),\n        ('envoye', 'Envoyé'),\n        ('negociation', 'En Négociation'),",
+        "detail": "devis.models",
+        "documentation": {}
+    },
+    {
+        "label": "LigneDevis",
+        "kind": 6,
+        "importPath": "devis.models",
+        "description": "devis.models",
+        "peekOfCode": "class LigneDevis(models.Model):\n    # Les unités courantes pour le commerce, le bâtiment et l'informatique\n    UNITE_CHOICES = [\n        ('U', 'Unité (U)'),\n        ('ENS', 'Ensemble (ENS)'),\n        ('FF', 'Forfait (FF)'),\n        ('H', 'Heure (H)'),\n        ('J', 'Jour (J)'),\n        ('M', 'Mètre (m)'),\n        ('M2', 'Mètre carré (m²)'),",
+        "detail": "devis.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "devis.urls",
+        "description": "devis.urls",
+        "peekOfCode": "app_name = 'devis'\nurlpatterns = [\n    path('', views.DevisListView.as_view(), name='list'),\n    path('create/', views.devis_create, name='create'),\n    path('<int:pk>/', views.DevisDetailView.as_view(), name='detail'),\n    path('<int:pk>/edit/', views.devis_update, name='update'),\n    path('<int:pk>/delete/', views.devis_delete, name='delete'),\n    path('<int:devis_id>/pdf/', views.telecharger_devis_pdf, name='telecharger_pdf'),\n]",
+        "detail": "devis.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "devis.urls",
+        "description": "devis.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.DevisListView.as_view(), name='list'),\n    path('create/', views.devis_create, name='create'),\n    path('<int:pk>/', views.DevisDetailView.as_view(), name='detail'),\n    path('<int:pk>/edit/', views.devis_update, name='update'),\n    path('<int:pk>/delete/', views.devis_delete, name='delete'),\n    path('<int:devis_id>/pdf/', views.telecharger_devis_pdf, name='telecharger_pdf'),\n]",
+        "detail": "devis.urls",
+        "documentation": {}
+    },
+    {
+        "label": "envoyer_notifications_devis",
+        "kind": 2,
+        "importPath": "devis.utils",
+        "description": "devis.utils",
+        "peekOfCode": "def envoyer_notifications_devis(devis):\n    \"\"\"\n    Centralise l'envoi d'e-mail et de SMS au client associé à un devis.\n    \"\"\"\n    # Récupération des coordonnées du client\n    email_client = getattr(devis.client, 'email', None)\n    tel_client = getattr(devis.client, 'tel', None) # Doit être au format international ex: +24206XXX\n    sujet = f\"DeviSys : Votre Devis #{devis.numero}\"\n    message_texte = (\n        f\"Bonjour {devis.client.nom},\\n\\n\"",
+        "detail": "devis.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "devis.utils",
+        "description": "devis.utils",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef envoyer_notifications_devis(devis):\n    \"\"\"\n    Centralise l'envoi d'e-mail et de SMS au client associé à un devis.\n    \"\"\"\n    # Récupération des coordonnées du client\n    email_client = getattr(devis.client, 'email', None)\n    tel_client = getattr(devis.client, 'tel', None) # Doit être au format international ex: +24206XXX\n    sujet = f\"DeviSys : Votre Devis #{devis.numero}\"\n    message_texte = (",
+        "detail": "devis.utils",
+        "documentation": {}
+    },
+    {
+        "label": "DevisListView",
+        "kind": 6,
+        "importPath": "devis.views",
+        "description": "devis.views",
+        "peekOfCode": "class DevisListView(ListView):\n    model = Devis\n    template_name = 'devis/devis_list.html'\n    context_object_name = 'devis_list'\nclass DevisDetailView(DetailView):\n    model = Devis\n    template_name = 'devis/devis_detail.html'\n    context_object_name = 'devis'\ndef _save_devis_and_formset(form, formset, instance=None):\n    devis = form.save(commit=False)",
+        "detail": "devis.views",
+        "documentation": {}
+    },
+    {
+        "label": "DevisDetailView",
+        "kind": 6,
+        "importPath": "devis.views",
+        "description": "devis.views",
+        "peekOfCode": "class DevisDetailView(DetailView):\n    model = Devis\n    template_name = 'devis/devis_detail.html'\n    context_object_name = 'devis'\ndef _save_devis_and_formset(form, formset, instance=None):\n    devis = form.save(commit=False)\n    devis.save()\n    lignes = formset.save(commit=False)\n    for ligne in lignes:\n        ligne.devis = devis",
+        "detail": "devis.views",
+        "documentation": {}
+    },
+    {
+        "label": "devis_create",
+        "kind": 2,
+        "importPath": "devis.views",
+        "description": "devis.views",
+        "peekOfCode": "def devis_create(request):\n    if request.method == 'POST':\n        form = DevisForm(request.POST)\n        formset = LigneFormSet(request.POST)\n        if form.is_valid() and formset.is_valid():\n            devis = _save_devis_and_formset(form, formset)\n            return redirect(reverse('devis:detail', args=[devis.pk]))\n    else:\n        form = DevisForm()\n        formset = LigneFormSet()",
+        "detail": "devis.views",
+        "documentation": {}
+    },
+    {
+        "label": "devis_update",
+        "kind": 2,
+        "importPath": "devis.views",
+        "description": "devis.views",
+        "peekOfCode": "def devis_update(request, pk):\n    devis = get_object_or_404(Devis, pk=pk)\n    if request.method == 'POST':\n        form = DevisForm(request.POST, instance=devis)\n        formset = LigneFormSet(request.POST, instance=devis)\n        if form.is_valid() and formset.is_valid():\n            devis = _save_devis_and_formset(form, formset, instance=devis)\n            return redirect(reverse('devis:detail', args=[devis.pk]))\n    else:\n        form = DevisForm(instance=devis)",
+        "detail": "devis.views",
+        "documentation": {}
+    },
+    {
+        "label": "devis_delete",
+        "kind": 2,
+        "importPath": "devis.views",
+        "description": "devis.views",
+        "peekOfCode": "def devis_delete(request, pk):\n    devis = get_object_or_404(Devis, pk=pk)\n    if request.method == 'POST':\n        devis.delete()\n        return redirect(reverse('devis:list'))\n    return render(request, 'devis/devis_confirm_delete.html', {'devis': devis})\ndef telecharger_devis_pdf(request, devis_id):\n    # 1. Récupérer le devis et ses sections\n    devis = get_object_or_404(Devis, pk=devis_id)\n    # sections = devis.sections.prefetch_related('lignes').all()",
+        "detail": "devis.views",
+        "documentation": {}
+    },
+    {
+        "label": "telecharger_devis_pdf",
+        "kind": 2,
+        "importPath": "devis.views",
+        "description": "devis.views",
+        "peekOfCode": "def telecharger_devis_pdf(request, devis_id):\n    # 1. Récupérer le devis et ses sections\n    devis = get_object_or_404(Devis, pk=devis_id)\n    # sections = devis.sections.prefetch_related('lignes').all()\n    # 2. Créer un tampon mémoire pour stocker le PDF\n    buffer = io.BytesIO()\n    # Marges globales de la page (environ 1 cm de chaque côté)\n    doc = SimpleDocTemplate(buffer, pagesize=letter, rightMargin=30, leftMargin=30, topMargin=30, bottomMargin=30)\n    story = []\n    # 3. Styles de texte",
+        "detail": "devis.views",
+        "documentation": {}
+    },
+    {
+        "label": "envoyer_devis_par_email",
+        "kind": 2,
+        "importPath": "devis.views",
+        "description": "devis.views",
+        "peekOfCode": "def envoyer_devis_par_email(request, devis_id):\n    devis = get_object_or_404(Devis, pk=devis_id)\n    client = devis.client\n    # Vérification de sécurité : le client doit avoir un e-mail valide\n    if not client.email:\n        messages.error(request, f\"❌ Impossible d'envoyer : Le client '{client.nom}' n'a pas d'adresse e-mail enregistrée.\")\n        return redirect(request.META.get('HTTP_REFERER', '/admin/'))\n    try:\n        # 2. Personnalisation du message selon le type de template (Particulier, ONG, Entreprise)\n        if devis.type_template == 'particulier':",
+        "detail": "devis.views",
+        "documentation": {}
+    },
+    {
+        "label": "PdfgenConfig",
+        "kind": 6,
+        "importPath": "pdfgen.apps",
+        "description": "pdfgen.apps",
+        "peekOfCode": "class PdfgenConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'pdfgen'",
+        "detail": "pdfgen.apps",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "pdfgen.urls",
+        "description": "pdfgen.urls",
+        "peekOfCode": "app_name = 'pdfgen'\nurlpatterns = [\n    path('devis/<int:devis_id>/pdf/', views.generer_devis_pdf, name='devis_pdf'),\n]",
+        "detail": "pdfgen.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "pdfgen.urls",
+        "description": "pdfgen.urls",
+        "peekOfCode": "urlpatterns = [\n    path('devis/<int:devis_id>/pdf/', views.generer_devis_pdf, name='devis_pdf'),\n]",
+        "detail": "pdfgen.urls",
+        "documentation": {}
+    },
+    {
+        "label": "generer_devis_pdf",
+        "kind": 2,
+        "importPath": "pdfgen.views",
+        "description": "pdfgen.views",
+        "peekOfCode": "def generer_devis_pdf(request, devis_id):\n    try:\n        # 1. Récupération sécurisée du devis\n        devis = get_object_or_404(Devis, pk=devis_id)\n        # 2. Initialisation de la réponse HTTP PDF\n        response = HttpResponse(content_type='application/pdf')\n        response['Content-Disposition'] = f'attachment; filename=\"Devis_{devis.numero}.pdf\"'\n        # 3. Construction de la structure du document\n        doc = SimpleDocTemplate(response, pagesize=A4, rightMargin=30, leftMargin=30, topMargin=30, bottomMargin=30)\n        story = []",
+        "detail": "pdfgen.views",
+        "documentation": {}
+    },
+    {
+        "label": "PwaConfig",
+        "kind": 6,
+        "importPath": "pwa.apps",
+        "description": "pwa.apps",
+        "peekOfCode": "class PwaConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'pwa'",
+        "detail": "pwa.apps",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "pwa.urls",
+        "description": "pwa.urls",
+        "peekOfCode": "app_name = 'pwa'\nurlpatterns = [\n    path('manifest.json', views.manifest, name='manifest'),\n    path('sw.js', views.service_worker, name='service_worker'),\n    path('install/', views.install, name='install'),\n]",
+        "detail": "pwa.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "pwa.urls",
+        "description": "pwa.urls",
+        "peekOfCode": "urlpatterns = [\n    path('manifest.json', views.manifest, name='manifest'),\n    path('sw.js', views.service_worker, name='service_worker'),\n    path('install/', views.install, name='install'),\n]",
+        "detail": "pwa.urls",
+        "documentation": {}
+    },
+    {
+        "label": "manifest",
+        "kind": 2,
+        "importPath": "pwa.views",
+        "description": "pwa.views",
+        "peekOfCode": "def manifest(request):\n    \"\"\"Génère le fichier manifest.json unique de la PWA Don & Gloire\"\"\"\n    data = {\n        \"name\": \"DeviSys Mobile\",\n        \"short_name\": \"DeviSys\",\n        \"description\": \"Générez et pilotez vos devis professionnels\",\n        \"start_url\": \"/\",\n        \"display\": \"standalone\",\n        \"background_color\": \"#252830\",  # Gris foncé de votre logo\n        \"theme_color\": \"#00A3E0\",       # Bleu Cyan de votre logo",
+        "detail": "pwa.views",
+        "documentation": {}
+    },
+    {
+        "label": "service_worker",
+        "kind": 2,
+        "importPath": "pwa.views",
+        "description": "pwa.views",
+        "peekOfCode": "def service_worker(request):\n    \"\"\"Charge le fichier JavaScript du Service Worker\"\"\"\n    template = loader.get_template('pwa/sw.js') # Déplacé dans le dossier pwa par propreté\n    html = template.render({}, request)\n    return HttpResponse(html, content_type='application/javascript')\ndef install(request):\n    \"\"\"Affiche la page d'installation personnalisée\"\"\"\n    return render(request, 'pwa/install.html')",
+        "detail": "pwa.views",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": "pwa.views",
+        "description": "pwa.views",
+        "peekOfCode": "def install(request):\n    \"\"\"Affiche la page d'installation personnalisée\"\"\"\n    return render(request, 'pwa/install.html')",
+        "detail": "pwa.views",
+        "documentation": {}
+    },
+    {
+        "label": "#version",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#version = ''\n# The full version, including alpha/beta/rc tags.\n#release = ''\nimport sphinx_rtd_theme\n# If extensions (or modules to document with autodoc) are in another directory,\n# add these directories to sys.path here. If the directory is relative to the\n# documentation root, use os.path.abspath to make it absolute, like shown here.\n#sys.path.insert(0, os.path.abspath('.'))\n# -- General configuration -----------------------------------------------------\n# If your documentation needs a minimal Sphinx version, state it here.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#release",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#release = ''\nimport sphinx_rtd_theme\n# If extensions (or modules to document with autodoc) are in another directory,\n# add these directories to sys.path here. If the directory is relative to the\n# documentation root, use os.path.abspath to make it absolute, like shown here.\n#sys.path.insert(0, os.path.abspath('.'))\n# -- General configuration -----------------------------------------------------\n# If your documentation needs a minimal Sphinx version, state it here.\n#needs_sphinx = '1.0'\nprimary_domain = 'js'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#needs_sphinx",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#needs_sphinx = '1.0'\nprimary_domain = 'js'\n# Add any Sphinx extension module names here, as strings. They can be extensions\n# coming with Sphinx (named 'sphinx.ext.*') or your custom ones.\nextensions = []\n# Add any paths that contain templates here, relative to this directory.\ntemplates_path = ['_templates']\n# The suffix of source filenames.\nsource_suffix = '.rst'\n# The encoding of source files.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "primary_domain",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "primary_domain = 'js'\n# Add any Sphinx extension module names here, as strings. They can be extensions\n# coming with Sphinx (named 'sphinx.ext.*') or your custom ones.\nextensions = []\n# Add any paths that contain templates here, relative to this directory.\ntemplates_path = ['_templates']\n# The suffix of source filenames.\nsource_suffix = '.rst'\n# The encoding of source files.\n#source_encoding = 'utf-8-sig'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "extensions",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "extensions = []\n# Add any paths that contain templates here, relative to this directory.\ntemplates_path = ['_templates']\n# The suffix of source filenames.\nsource_suffix = '.rst'\n# The encoding of source files.\n#source_encoding = 'utf-8-sig'\n# The master toctree document.\nmaster_doc = 'index'\n# General information about the project.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "templates_path",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "templates_path = ['_templates']\n# The suffix of source filenames.\nsource_suffix = '.rst'\n# The encoding of source files.\n#source_encoding = 'utf-8-sig'\n# The master toctree document.\nmaster_doc = 'index'\n# General information about the project.\nproject = u'bootstrap-datepicker'\ncopyright = u'2016, eternicode'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "source_suffix",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "source_suffix = '.rst'\n# The encoding of source files.\n#source_encoding = 'utf-8-sig'\n# The master toctree document.\nmaster_doc = 'index'\n# General information about the project.\nproject = u'bootstrap-datepicker'\ncopyright = u'2016, eternicode'\n# The language for content autogenerated by Sphinx. Refer to documentation\n# for a list of supported languages.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#source_encoding",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#source_encoding = 'utf-8-sig'\n# The master toctree document.\nmaster_doc = 'index'\n# General information about the project.\nproject = u'bootstrap-datepicker'\ncopyright = u'2016, eternicode'\n# The language for content autogenerated by Sphinx. Refer to documentation\n# for a list of supported languages.\n#language = None\n# There are two options for replacing |today|: either, you set today to some",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "master_doc",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "master_doc = 'index'\n# General information about the project.\nproject = u'bootstrap-datepicker'\ncopyright = u'2016, eternicode'\n# The language for content autogenerated by Sphinx. Refer to documentation\n# for a list of supported languages.\n#language = None\n# There are two options for replacing |today|: either, you set today to some\n# non-false value, then it is used:\n#today = ''",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "project",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "project = u'bootstrap-datepicker'\ncopyright = u'2016, eternicode'\n# The language for content autogenerated by Sphinx. Refer to documentation\n# for a list of supported languages.\n#language = None\n# There are two options for replacing |today|: either, you set today to some\n# non-false value, then it is used:\n#today = ''\n# Else, today_fmt is used as the format for a strftime call.\n#today_fmt = '%B %d, %Y'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "copyright",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "copyright = u'2016, eternicode'\n# The language for content autogenerated by Sphinx. Refer to documentation\n# for a list of supported languages.\n#language = None\n# There are two options for replacing |today|: either, you set today to some\n# non-false value, then it is used:\n#today = ''\n# Else, today_fmt is used as the format for a strftime call.\n#today_fmt = '%B %d, %Y'\n# List of patterns, relative to source directory, that match files and",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#language",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#language = None\n# There are two options for replacing |today|: either, you set today to some\n# non-false value, then it is used:\n#today = ''\n# Else, today_fmt is used as the format for a strftime call.\n#today_fmt = '%B %d, %Y'\n# List of patterns, relative to source directory, that match files and\n# directories to ignore when looking for source files.\nexclude_patterns = ['_build']\n# The reST default role (used for this markup: `text`) to use for all documents.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#today",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#today = ''\n# Else, today_fmt is used as the format for a strftime call.\n#today_fmt = '%B %d, %Y'\n# List of patterns, relative to source directory, that match files and\n# directories to ignore when looking for source files.\nexclude_patterns = ['_build']\n# The reST default role (used for this markup: `text`) to use for all documents.\n#default_role = None\n# If true, '()' will be appended to :func: etc. cross-reference text.\n#add_function_parentheses = True",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#today_fmt",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#today_fmt = '%B %d, %Y'\n# List of patterns, relative to source directory, that match files and\n# directories to ignore when looking for source files.\nexclude_patterns = ['_build']\n# The reST default role (used for this markup: `text`) to use for all documents.\n#default_role = None\n# If true, '()' will be appended to :func: etc. cross-reference text.\n#add_function_parentheses = True\n# If true, the current module name will be prepended to all description\n# unit titles (such as .. function::).",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "exclude_patterns",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "exclude_patterns = ['_build']\n# The reST default role (used for this markup: `text`) to use for all documents.\n#default_role = None\n# If true, '()' will be appended to :func: etc. cross-reference text.\n#add_function_parentheses = True\n# If true, the current module name will be prepended to all description\n# unit titles (such as .. function::).\n#add_module_names = True\n# If true, sectionauthor and moduleauthor directives will be shown in the\n# output. They are ignored by default.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#default_role",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#default_role = None\n# If true, '()' will be appended to :func: etc. cross-reference text.\n#add_function_parentheses = True\n# If true, the current module name will be prepended to all description\n# unit titles (such as .. function::).\n#add_module_names = True\n# If true, sectionauthor and moduleauthor directives will be shown in the\n# output. They are ignored by default.\n#show_authors = False\n# The name of the Pygments (syntax highlighting) style to use.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#add_function_parentheses",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#add_function_parentheses = True\n# If true, the current module name will be prepended to all description\n# unit titles (such as .. function::).\n#add_module_names = True\n# If true, sectionauthor and moduleauthor directives will be shown in the\n# output. They are ignored by default.\n#show_authors = False\n# The name of the Pygments (syntax highlighting) style to use.\npygments_style = 'sphinx'\nhighlight_language = 'javascript'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#add_module_names",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#add_module_names = True\n# If true, sectionauthor and moduleauthor directives will be shown in the\n# output. They are ignored by default.\n#show_authors = False\n# The name of the Pygments (syntax highlighting) style to use.\npygments_style = 'sphinx'\nhighlight_language = 'javascript'\n# A list of ignored prefixes for module index sorting.\n#modindex_common_prefix = []\n# -- Options for HTML output ---------------------------------------------------",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#show_authors",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#show_authors = False\n# The name of the Pygments (syntax highlighting) style to use.\npygments_style = 'sphinx'\nhighlight_language = 'javascript'\n# A list of ignored prefixes for module index sorting.\n#modindex_common_prefix = []\n# -- Options for HTML output ---------------------------------------------------\n# The theme to use for HTML and HTML Help pages.  See the documentation for\n# a list of builtin themes.\nhtml_theme = 'sphinx_rtd_theme'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "pygments_style",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "pygments_style = 'sphinx'\nhighlight_language = 'javascript'\n# A list of ignored prefixes for module index sorting.\n#modindex_common_prefix = []\n# -- Options for HTML output ---------------------------------------------------\n# The theme to use for HTML and HTML Help pages.  See the documentation for\n# a list of builtin themes.\nhtml_theme = 'sphinx_rtd_theme'\n# Theme options are theme-specific and customize the look and feel of a theme\n# further.  For a list of options available for each theme, see the",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "highlight_language",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "highlight_language = 'javascript'\n# A list of ignored prefixes for module index sorting.\n#modindex_common_prefix = []\n# -- Options for HTML output ---------------------------------------------------\n# The theme to use for HTML and HTML Help pages.  See the documentation for\n# a list of builtin themes.\nhtml_theme = 'sphinx_rtd_theme'\n# Theme options are theme-specific and customize the look and feel of a theme\n# further.  For a list of options available for each theme, see the\n# documentation.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#modindex_common_prefix",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#modindex_common_prefix = []\n# -- Options for HTML output ---------------------------------------------------\n# The theme to use for HTML and HTML Help pages.  See the documentation for\n# a list of builtin themes.\nhtml_theme = 'sphinx_rtd_theme'\n# Theme options are theme-specific and customize the look and feel of a theme\n# further.  For a list of options available for each theme, see the\n# documentation.\n#html_theme_options = {}\n# Add any paths that contain custom themes here, relative to this directory.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_theme",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "html_theme = 'sphinx_rtd_theme'\n# Theme options are theme-specific and customize the look and feel of a theme\n# further.  For a list of options available for each theme, see the\n# documentation.\n#html_theme_options = {}\n# Add any paths that contain custom themes here, relative to this directory.\n# html_theme_path = ['_themes',]\nhtml_theme_path = [sphinx_rtd_theme.get_html_theme_path()]\n# The name for this set of Sphinx documents.  If None, it defaults to\n# \"<project> v<release> documentation\".",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_theme_options",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_theme_options = {}\n# Add any paths that contain custom themes here, relative to this directory.\n# html_theme_path = ['_themes',]\nhtml_theme_path = [sphinx_rtd_theme.get_html_theme_path()]\n# The name for this set of Sphinx documents.  If None, it defaults to\n# \"<project> v<release> documentation\".\n#html_title = None\n# A shorter title for the navigation bar.  Default is the same as html_title.\n#html_short_title = None\n# The name of an image file (relative to this directory) to place at the top",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_theme_path",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]\n# The name for this set of Sphinx documents.  If None, it defaults to\n# \"<project> v<release> documentation\".\n#html_title = None\n# A shorter title for the navigation bar.  Default is the same as html_title.\n#html_short_title = None\n# The name of an image file (relative to this directory) to place at the top\n# of the sidebar.\n#html_logo = None\n# The name of an image file (within the static path) to use as favicon of the",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_title",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_title = None\n# A shorter title for the navigation bar.  Default is the same as html_title.\n#html_short_title = None\n# The name of an image file (relative to this directory) to place at the top\n# of the sidebar.\n#html_logo = None\n# The name of an image file (within the static path) to use as favicon of the\n# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32\n# pixels large.\n#html_favicon = None",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_short_title",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_short_title = None\n# The name of an image file (relative to this directory) to place at the top\n# of the sidebar.\n#html_logo = None\n# The name of an image file (within the static path) to use as favicon of the\n# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32\n# pixels large.\n#html_favicon = None\n# Add any paths that contain custom static files (such as style sheets) here,\n# relative to this directory. They are copied after the builtin static files,",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_logo",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_logo = None\n# The name of an image file (within the static path) to use as favicon of the\n# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32\n# pixels large.\n#html_favicon = None\n# Add any paths that contain custom static files (such as style sheets) here,\n# relative to this directory. They are copied after the builtin static files,\n# so a file named \"default.css\" will overwrite the builtin \"default.css\".\nhtml_static_path = ['_static']\n# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_favicon",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_favicon = None\n# Add any paths that contain custom static files (such as style sheets) here,\n# relative to this directory. They are copied after the builtin static files,\n# so a file named \"default.css\" will overwrite the builtin \"default.css\".\nhtml_static_path = ['_static']\n# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,\n# using the given strftime format.\n#html_last_updated_fmt = '%b %d, %Y'\n# If true, SmartyPants will be used to convert quotes and dashes to\n# typographically correct entities.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_static_path",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "html_static_path = ['_static']\n# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,\n# using the given strftime format.\n#html_last_updated_fmt = '%b %d, %Y'\n# If true, SmartyPants will be used to convert quotes and dashes to\n# typographically correct entities.\n#html_use_smartypants = True\n# Custom sidebar templates, maps document names to template names.\n#html_sidebars = {}\n# Additional templates that should be rendered to pages, maps page names to",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_last_updated_fmt",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_last_updated_fmt = '%b %d, %Y'\n# If true, SmartyPants will be used to convert quotes and dashes to\n# typographically correct entities.\n#html_use_smartypants = True\n# Custom sidebar templates, maps document names to template names.\n#html_sidebars = {}\n# Additional templates that should be rendered to pages, maps page names to\n# template names.\n#html_additional_pages = {}\n# If false, no module index is generated.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_use_smartypants",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_use_smartypants = True\n# Custom sidebar templates, maps document names to template names.\n#html_sidebars = {}\n# Additional templates that should be rendered to pages, maps page names to\n# template names.\n#html_additional_pages = {}\n# If false, no module index is generated.\n#html_domain_indices = True\n# If false, no index is generated.\n#html_use_index = True",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_sidebars",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_sidebars = {}\n# Additional templates that should be rendered to pages, maps page names to\n# template names.\n#html_additional_pages = {}\n# If false, no module index is generated.\n#html_domain_indices = True\n# If false, no index is generated.\n#html_use_index = True\n# If true, the index is split into individual pages for each letter.\n#html_split_index = False",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_additional_pages",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_additional_pages = {}\n# If false, no module index is generated.\n#html_domain_indices = True\n# If false, no index is generated.\n#html_use_index = True\n# If true, the index is split into individual pages for each letter.\n#html_split_index = False\n# If true, links to the reST sources are added to the pages.\n#html_show_sourcelink = True\n# If true, \"Created using Sphinx\" is shown in the HTML footer. Default is True.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_domain_indices",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_domain_indices = True\n# If false, no index is generated.\n#html_use_index = True\n# If true, the index is split into individual pages for each letter.\n#html_split_index = False\n# If true, links to the reST sources are added to the pages.\n#html_show_sourcelink = True\n# If true, \"Created using Sphinx\" is shown in the HTML footer. Default is True.\n#html_show_sphinx = True\n# If true, \"(C) Copyright ...\" is shown in the HTML footer. Default is True.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_use_index",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_use_index = True\n# If true, the index is split into individual pages for each letter.\n#html_split_index = False\n# If true, links to the reST sources are added to the pages.\n#html_show_sourcelink = True\n# If true, \"Created using Sphinx\" is shown in the HTML footer. Default is True.\n#html_show_sphinx = True\n# If true, \"(C) Copyright ...\" is shown in the HTML footer. Default is True.\n#html_show_copyright = True\n# If true, an OpenSearch description file will be output, and all pages will",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_split_index",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_split_index = False\n# If true, links to the reST sources are added to the pages.\n#html_show_sourcelink = True\n# If true, \"Created using Sphinx\" is shown in the HTML footer. Default is True.\n#html_show_sphinx = True\n# If true, \"(C) Copyright ...\" is shown in the HTML footer. Default is True.\n#html_show_copyright = True\n# If true, an OpenSearch description file will be output, and all pages will\n# contain a <link> tag referring to it.  The value of this option must be the\n# base URL from which the finished HTML is served.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_show_sourcelink",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_show_sourcelink = True\n# If true, \"Created using Sphinx\" is shown in the HTML footer. Default is True.\n#html_show_sphinx = True\n# If true, \"(C) Copyright ...\" is shown in the HTML footer. Default is True.\n#html_show_copyright = True\n# If true, an OpenSearch description file will be output, and all pages will\n# contain a <link> tag referring to it.  The value of this option must be the\n# base URL from which the finished HTML is served.\n#html_use_opensearch = ''\n# This is the file name suffix for HTML files (e.g. \".xhtml\").",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_show_sphinx",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_show_sphinx = True\n# If true, \"(C) Copyright ...\" is shown in the HTML footer. Default is True.\n#html_show_copyright = True\n# If true, an OpenSearch description file will be output, and all pages will\n# contain a <link> tag referring to it.  The value of this option must be the\n# base URL from which the finished HTML is served.\n#html_use_opensearch = ''\n# This is the file name suffix for HTML files (e.g. \".xhtml\").\n#html_file_suffix = None\n# Output file base name for HTML help builder.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_show_copyright",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_show_copyright = True\n# If true, an OpenSearch description file will be output, and all pages will\n# contain a <link> tag referring to it.  The value of this option must be the\n# base URL from which the finished HTML is served.\n#html_use_opensearch = ''\n# This is the file name suffix for HTML files (e.g. \".xhtml\").\n#html_file_suffix = None\n# Output file base name for HTML help builder.\nhtmlhelp_basename = 'bootstrap-datepickerdoc'\n# -- Options for LaTeX output --------------------------------------------------",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_use_opensearch",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_use_opensearch = ''\n# This is the file name suffix for HTML files (e.g. \".xhtml\").\n#html_file_suffix = None\n# Output file base name for HTML help builder.\nhtmlhelp_basename = 'bootstrap-datepickerdoc'\n# -- Options for LaTeX output --------------------------------------------------\nlatex_elements = {\n# The paper size ('letterpaper' or 'a4paper').\n#'papersize': 'letterpaper',\n# The font size ('10pt', '11pt' or '12pt').",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#html_file_suffix",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#html_file_suffix = None\n# Output file base name for HTML help builder.\nhtmlhelp_basename = 'bootstrap-datepickerdoc'\n# -- Options for LaTeX output --------------------------------------------------\nlatex_elements = {\n# The paper size ('letterpaper' or 'a4paper').\n#'papersize': 'letterpaper',\n# The font size ('10pt', '11pt' or '12pt').\n#'pointsize': '10pt',\n# Additional stuff for the LaTeX preamble.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "htmlhelp_basename",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "htmlhelp_basename = 'bootstrap-datepickerdoc'\n# -- Options for LaTeX output --------------------------------------------------\nlatex_elements = {\n# The paper size ('letterpaper' or 'a4paper').\n#'papersize': 'letterpaper',\n# The font size ('10pt', '11pt' or '12pt').\n#'pointsize': '10pt',\n# Additional stuff for the LaTeX preamble.\n#'preamble': '',\n}",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "latex_elements",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "latex_elements = {\n# The paper size ('letterpaper' or 'a4paper').\n#'papersize': 'letterpaper',\n# The font size ('10pt', '11pt' or '12pt').\n#'pointsize': '10pt',\n# Additional stuff for the LaTeX preamble.\n#'preamble': '',\n}\n# Grouping the document tree into LaTeX files. List of tuples\n# (source start file, target name, title, author, documentclass [howto/manual]).",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "latex_documents",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "latex_documents = [\n  ('index', 'bootstrap-datepicker.tex', u'bootstrap-datepicker Documentation',\n   u'eternicode', 'manual'),\n]\n# The name of an image file (relative to this directory) to place at the top of\n# the title page.\n#latex_logo = None\n# For \"manual\" documents, if this is true, then toplevel headings are parts,\n# not chapters.\n#latex_use_parts = False",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#latex_logo",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#latex_logo = None\n# For \"manual\" documents, if this is true, then toplevel headings are parts,\n# not chapters.\n#latex_use_parts = False\n# If true, show page references after internal links.\n#latex_show_pagerefs = False\n# If true, show URL addresses after external links.\n#latex_show_urls = False\n# Documents to append as an appendix to all manuals.\n#latex_appendices = []",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#latex_use_parts",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#latex_use_parts = False\n# If true, show page references after internal links.\n#latex_show_pagerefs = False\n# If true, show URL addresses after external links.\n#latex_show_urls = False\n# Documents to append as an appendix to all manuals.\n#latex_appendices = []\n# If false, no module index is generated.\n#latex_domain_indices = True\n# -- Options for manual page output --------------------------------------------",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#latex_show_pagerefs",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#latex_show_pagerefs = False\n# If true, show URL addresses after external links.\n#latex_show_urls = False\n# Documents to append as an appendix to all manuals.\n#latex_appendices = []\n# If false, no module index is generated.\n#latex_domain_indices = True\n# -- Options for manual page output --------------------------------------------\n# One entry per manual page. List of tuples\n# (source start file, name, description, authors, manual section).",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#latex_show_urls",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#latex_show_urls = False\n# Documents to append as an appendix to all manuals.\n#latex_appendices = []\n# If false, no module index is generated.\n#latex_domain_indices = True\n# -- Options for manual page output --------------------------------------------\n# One entry per manual page. List of tuples\n# (source start file, name, description, authors, manual section).\nman_pages = [\n    ('index', 'bootstrap-datepicker', u'bootstrap-datepicker Documentation',",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#latex_appendices",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#latex_appendices = []\n# If false, no module index is generated.\n#latex_domain_indices = True\n# -- Options for manual page output --------------------------------------------\n# One entry per manual page. List of tuples\n# (source start file, name, description, authors, manual section).\nman_pages = [\n    ('index', 'bootstrap-datepicker', u'bootstrap-datepicker Documentation',\n     [u'eternicode'], 1)\n]",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#latex_domain_indices",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#latex_domain_indices = True\n# -- Options for manual page output --------------------------------------------\n# One entry per manual page. List of tuples\n# (source start file, name, description, authors, manual section).\nman_pages = [\n    ('index', 'bootstrap-datepicker', u'bootstrap-datepicker Documentation',\n     [u'eternicode'], 1)\n]\n# If true, show URL addresses after external links.\n#man_show_urls = False",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "man_pages",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "man_pages = [\n    ('index', 'bootstrap-datepicker', u'bootstrap-datepicker Documentation',\n     [u'eternicode'], 1)\n]\n# If true, show URL addresses after external links.\n#man_show_urls = False\n# -- Options for Texinfo output ------------------------------------------------\n# Grouping the document tree into Texinfo files. List of tuples\n# (source start file, target name, title, author,\n#  dir menu entry, description, category)",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#man_show_urls",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#man_show_urls = False\n# -- Options for Texinfo output ------------------------------------------------\n# Grouping the document tree into Texinfo files. List of tuples\n# (source start file, target name, title, author,\n#  dir menu entry, description, category)\ntexinfo_documents = [\n  ('index', 'bootstrap-datepicker', u'bootstrap-datepicker Documentation',\n   u'eternicode', 'bootstrap-datepicker', 'One line description of project.',\n   'Miscellaneous'),\n]",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "texinfo_documents",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "texinfo_documents = [\n  ('index', 'bootstrap-datepicker', u'bootstrap-datepicker Documentation',\n   u'eternicode', 'bootstrap-datepicker', 'One line description of project.',\n   'Miscellaneous'),\n]\n# Documents to append as an appendix to all manuals.\n#texinfo_appendices = []\n# If false, no module index is generated.\n#texinfo_domain_indices = True\n# How to display URL addresses: 'footnote', 'no', or 'inline'.",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#texinfo_appendices",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#texinfo_appendices = []\n# If false, no module index is generated.\n#texinfo_domain_indices = True\n# How to display URL addresses: 'footnote', 'no', or 'inline'.\n#texinfo_show_urls = 'footnote'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#texinfo_domain_indices",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#texinfo_domain_indices = True\n# How to display URL addresses: 'footnote', 'no', or 'inline'.\n#texinfo_show_urls = 'footnote'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "#texinfo_show_urls",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "description": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "peekOfCode": "#texinfo_show_urls = 'footnote'",
+        "detail": "static.AdminLTE.bower_components.bootstrap-datepicker.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "peekOfCode": "class Map:\n  def __init__(self, name, language):\n    self.paths = {}\n    self.name = name\n    self.language = language\n    self.width = 0\n    self.height = 0\n    self.bbox = []\n  def addPath(self, path, code, name):\n    self.paths[code] = {\"path\": path, \"name\": name}",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "documentation": {}
+    },
+    {
+        "label": "Converter",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "peekOfCode": "class Converter:\n  def __init__(self, config):\n    args = {\n      'buffer_distance': -0.4,\n      'simplify_tolerance': 0.2,\n      'longitude0': 0,\n      'projection': 'mill',\n      'name': 'world',\n      'width': 900,\n      'language': 'en',",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "peekOfCode": "args = {}\nif len(sys.argv) > 1:\n  paramsJson = open(sys.argv[1], 'r').read()\nelse:\n  paramsJson = sys.stdin.read()\nparamsJson = json.loads(paramsJson)\nconverter = Converter(paramsJson)\nconverter.convert(paramsJson['output_file'])",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "documentation": {}
+    },
+    {
+        "label": "paramsJson",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "peekOfCode": "paramsJson = json.loads(paramsJson)\nconverter = Converter(paramsJson)\nconverter.convert(paramsJson['output_file'])",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "documentation": {}
+    },
+    {
+        "label": "converter",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "peekOfCode": "converter = Converter(paramsJson)\nconverter.convert(paramsJson['output_file'])",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.converter",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "class Map:\n  def __init__(self, name, language):\n    self.paths = {}\n    self.name = name\n    self.language = language\n    self.width = 0\n    self.height = 0\n    self.bbox = []\n  def addPath(self, path, code, name):\n    self.paths[code] = {\"path\": path, \"name\": name}",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "Converter",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "class Converter:\n  def __init__(self, config):\n    args = {\n      'buffer_distance': -0.4,\n      'simplify_tolerance': 0.2,\n      'longitude0': 0,\n      'projection': 'mill',\n      'name': 'world',\n      'width': 900,\n      'left': 0,",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "Geometry",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "class Geometry:\n  def __init__(self, geometry, properties):\n    self.geom = geometry\n    self.properties = properties\nclass GeometryProperty(Variable):\n  operations = set([\"equality\", \"membership\"])\n  def __init__(self, name):\n    self.name = name\n  def equals(self, value, context):\n    return context[self.name] == value",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "GeometryProperty",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "class GeometryProperty(Variable):\n  operations = set([\"equality\", \"membership\"])\n  def __init__(self, name):\n    self.name = name\n  def equals(self, value, context):\n    return context[self.name] == value\n  def belongs_to(self, value, context):\n    return value in context[self.name]\n  def is_subset(self, value, context):\n    return set(value).issubset(set(context[self.name]))",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "DataSource",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "class DataSource:\n  def __init__(self, config):\n    default_config = {\n      \"projection\": \"merc\",\n      \"longitude0\": 0\n    }\n    default_config.update(config)\n    self.config = default_config\n    self.spatialRef = osr.SpatialReference()\n    projString = '+proj='+str(self.config['projection'])+' +a=6381372 +b=6381372 +lat_0=0'",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "PolygonSimplifier",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "class PolygonSimplifier:\n  def __init__(self, geometries):\n    self.format = '%.8f %.8f'\n    self.tolerance = 0.05\n    self.geometries = geometries\n    connections = {}\n    counter = 0\n    for geom in geometries:\n      counter += 1\n      polygons = []",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "Processor",
+        "kind": 6,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "class Processor:\n  def __init__(self, config):\n    self.config = config\n  def process(self):\n    self.data_sources = {}\n    for action in self.config:\n      getattr(self, action['name'])( action, self.data_sources.get(\".\") )\n  def read_data(self, config, data_source):\n    self.data_sources[\".\"] = DataSource( config )\n    self.data_sources[\".\"].load_data()",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "args = {}\nif len(sys.argv) > 1:\n  paramsJson = open(sys.argv[1], 'r').read()\nelse:\n  paramsJson = sys.stdin.read()\nparamsJson = json.loads(paramsJson)\nprocessor = Processor(paramsJson)\nprocessor.process()",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "paramsJson",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "paramsJson = json.loads(paramsJson)\nprocessor = Processor(paramsJson)\nprocessor.process()",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "processor",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "peekOfCode": "processor = Processor(paramsJson)\nprocessor.process()",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.processor",
+        "documentation": {}
+    },
+    {
+        "label": "simplifyRing",
+        "kind": 2,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "def simplifyRing(ring):\n  coords = list(ring.coords)[0:-1]\n  simpleCoords = []\n  isPivot = False\n  pointIndex = 0\n  while not isPivot and pointIndex < len(coords):\n    pointStr = format % coords[pointIndex]\n    pointIndex += 1\n    isPivot = ((len(connections[pointStr]) > 2) or (pointStr in pivotPoints))\n  pointIndex = pointIndex - 1",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "simplifyPolygon",
+        "kind": 2,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "def simplifyPolygon(polygon):\n  simpleExtRing = simplifyRing(polygon.exterior)\n  if simpleExtRing is None:\n    return None\n  simpleIntRings = []\n  for ring in polygon.interiors:\n    simpleIntRing = simplifyRing(ring)\n    if simpleIntRing is not None:\n      simpleIntRings.append(simpleIntRing)\n  return shapely.geometry.Polygon(simpleExtRing, simpleIntRings)",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "format",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "format = '%.8f %.8f'\ntolerance = 0.01\ninfile = '/Users/kirilllebedev/Maps/50m-admin-0-countries/ne_50m_admin_0_countries.shp'\noutfile = 'map.shp'\n# Open the datasource to operate on.\nin_ds = ogr.Open( infile, update = 0 )\nin_layer = in_ds.GetLayer( 0 )\nin_defn = in_layer.GetLayerDefn()\n# Create output file with similar information.\nshp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "tolerance",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "tolerance = 0.01\ninfile = '/Users/kirilllebedev/Maps/50m-admin-0-countries/ne_50m_admin_0_countries.shp'\noutfile = 'map.shp'\n# Open the datasource to operate on.\nin_ds = ogr.Open( infile, update = 0 )\nin_layer = in_ds.GetLayer( 0 )\nin_defn = in_layer.GetLayerDefn()\n# Create output file with similar information.\nshp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )\nif os.path.exists('map.shp'):",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "infile",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "infile = '/Users/kirilllebedev/Maps/50m-admin-0-countries/ne_50m_admin_0_countries.shp'\noutfile = 'map.shp'\n# Open the datasource to operate on.\nin_ds = ogr.Open( infile, update = 0 )\nin_layer = in_ds.GetLayer( 0 )\nin_defn = in_layer.GetLayerDefn()\n# Create output file with similar information.\nshp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )\nif os.path.exists('map.shp'):\n  shp_driver.DeleteDataSource( outfile )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "outfile",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "outfile = 'map.shp'\n# Open the datasource to operate on.\nin_ds = ogr.Open( infile, update = 0 )\nin_layer = in_ds.GetLayer( 0 )\nin_defn = in_layer.GetLayerDefn()\n# Create output file with similar information.\nshp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )\nif os.path.exists('map.shp'):\n  shp_driver.DeleteDataSource( outfile )\nshp_ds = shp_driver.CreateDataSource( outfile )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "in_ds",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "in_ds = ogr.Open( infile, update = 0 )\nin_layer = in_ds.GetLayer( 0 )\nin_defn = in_layer.GetLayerDefn()\n# Create output file with similar information.\nshp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )\nif os.path.exists('map.shp'):\n  shp_driver.DeleteDataSource( outfile )\nshp_ds = shp_driver.CreateDataSource( outfile )\nshp_layer = shp_ds.CreateLayer( in_defn.GetName(),\n                                geom_type = in_defn.GetGeomType(),",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "in_layer",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "in_layer = in_ds.GetLayer( 0 )\nin_defn = in_layer.GetLayerDefn()\n# Create output file with similar information.\nshp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )\nif os.path.exists('map.shp'):\n  shp_driver.DeleteDataSource( outfile )\nshp_ds = shp_driver.CreateDataSource( outfile )\nshp_layer = shp_ds.CreateLayer( in_defn.GetName(),\n                                geom_type = in_defn.GetGeomType(),\n                                srs = in_layer.GetSpatialRef() )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "in_defn",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "in_defn = in_layer.GetLayerDefn()\n# Create output file with similar information.\nshp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )\nif os.path.exists('map.shp'):\n  shp_driver.DeleteDataSource( outfile )\nshp_ds = shp_driver.CreateDataSource( outfile )\nshp_layer = shp_ds.CreateLayer( in_defn.GetName(),\n                                geom_type = in_defn.GetGeomType(),\n                                srs = in_layer.GetSpatialRef() )\nin_field_count = in_defn.GetFieldCount()",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "shp_driver",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "shp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )\nif os.path.exists('map.shp'):\n  shp_driver.DeleteDataSource( outfile )\nshp_ds = shp_driver.CreateDataSource( outfile )\nshp_layer = shp_ds.CreateLayer( in_defn.GetName(),\n                                geom_type = in_defn.GetGeomType(),\n                                srs = in_layer.GetSpatialRef() )\nin_field_count = in_defn.GetFieldCount()\nfor fld_index in range(in_field_count):\n    src_fd = in_defn.GetFieldDefn( fld_index )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "shp_ds",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "shp_ds = shp_driver.CreateDataSource( outfile )\nshp_layer = shp_ds.CreateLayer( in_defn.GetName(),\n                                geom_type = in_defn.GetGeomType(),\n                                srs = in_layer.GetSpatialRef() )\nin_field_count = in_defn.GetFieldCount()\nfor fld_index in range(in_field_count):\n    src_fd = in_defn.GetFieldDefn( fld_index )\n    fd = ogr.FieldDefn( src_fd.GetName(), src_fd.GetType() )\n    fd.SetWidth( src_fd.GetWidth() )\n    fd.SetPrecision( src_fd.GetPrecision() )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "shp_layer",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "shp_layer = shp_ds.CreateLayer( in_defn.GetName(),\n                                geom_type = in_defn.GetGeomType(),\n                                srs = in_layer.GetSpatialRef() )\nin_field_count = in_defn.GetFieldCount()\nfor fld_index in range(in_field_count):\n    src_fd = in_defn.GetFieldDefn( fld_index )\n    fd = ogr.FieldDefn( src_fd.GetName(), src_fd.GetType() )\n    fd.SetWidth( src_fd.GetWidth() )\n    fd.SetPrecision( src_fd.GetPrecision() )\n    shp_layer.CreateField( fd )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "in_field_count",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "in_field_count = in_defn.GetFieldCount()\nfor fld_index in range(in_field_count):\n    src_fd = in_defn.GetFieldDefn( fld_index )\n    fd = ogr.FieldDefn( src_fd.GetName(), src_fd.GetType() )\n    fd.SetWidth( src_fd.GetWidth() )\n    fd.SetPrecision( src_fd.GetPrecision() )\n    shp_layer.CreateField( fd )\n# Load geometries\ngeometries = []\nfor feature in in_layer:",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "geometries",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "geometries = []\nfor feature in in_layer:\n  geometry = feature.GetGeometryRef()\n  geometryType = geometry.GetGeometryType()\n  if geometryType == ogr.wkbPolygon or geometryType == ogr.wkbMultiPolygon:\n    shapelyGeometry = shapely.wkb.loads( geometry.ExportToWkb() )\n    #if not shapelyGeometry.is_valid:\n      #buffer to fix selfcrosses\n      #shapelyGeometry = shapelyGeometry.buffer(0)\n    if shapelyGeometry:",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "start = int(round(time.time() * 1000))\n# Simplification\npoints = []\nconnections = {}\ncounter = 0\nfor geom in geometries:\n  counter += 1\n  polygons = []\n  if isinstance(geom, shapely.geometry.Polygon):\n    polygons.append(geom)",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "points",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "points = []\nconnections = {}\ncounter = 0\nfor geom in geometries:\n  counter += 1\n  polygons = []\n  if isinstance(geom, shapely.geometry.Polygon):\n    polygons.append(geom)\n  else:\n    for polygon in geom:",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "connections",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "connections = {}\ncounter = 0\nfor geom in geometries:\n  counter += 1\n  polygons = []\n  if isinstance(geom, shapely.geometry.Polygon):\n    polygons.append(geom)\n  else:\n    for polygon in geom:\n      polygons.append(polygon)",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "counter = 0\nfor geom in geometries:\n  counter += 1\n  polygons = []\n  if isinstance(geom, shapely.geometry.Polygon):\n    polygons.append(geom)\n  else:\n    for polygon in geom:\n      polygons.append(polygon)\n  for polygon in polygons:",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "simplifiedLines",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "simplifiedLines = {}\npivotPoints = {}\ndef simplifyRing(ring):\n  coords = list(ring.coords)[0:-1]\n  simpleCoords = []\n  isPivot = False\n  pointIndex = 0\n  while not isPivot and pointIndex < len(coords):\n    pointStr = format % coords[pointIndex]\n    pointIndex += 1",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "pivotPoints",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "pivotPoints = {}\ndef simplifyRing(ring):\n  coords = list(ring.coords)[0:-1]\n  simpleCoords = []\n  isPivot = False\n  pointIndex = 0\n  while not isPivot and pointIndex < len(coords):\n    pointStr = format % coords[pointIndex]\n    pointIndex += 1\n    isPivot = ((len(connections[pointStr]) > 2) or (pointStr in pivotPoints))",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "results = []\nfor geom in geometries:\n  polygons = []\n  simplePolygons = []\n  if isinstance(geom, shapely.geometry.Polygon):\n    polygons.append(geom)\n  else:\n    for polygon in geom:\n      polygons.append(polygon)\n  for polygon in polygons:",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "in_feat",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "in_feat = in_layer.GetNextFeature()\ncounter = 0\nwhile in_feat is not None:\n  if results[counter] is not None:\n    out_feat = ogr.Feature( feature_def = shp_layer.GetLayerDefn() )\n    out_feat.SetFrom( in_feat )\n    out_feat.SetGeometryDirectly(\n      ogr.CreateGeometryFromWkb(\n        shapely.wkb.dumps(\n          results[counter]",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "description": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "peekOfCode": "counter = 0\nwhile in_feat is not None:\n  if results[counter] is not None:\n    out_feat = ogr.Feature( feature_def = shp_layer.GetLayerDefn() )\n    out_feat.SetFrom( in_feat )\n    out_feat.SetGeometryDirectly(\n      ogr.CreateGeometryFromWkb(\n        shapely.wkb.dumps(\n          results[counter]\n        )",
+        "detail": "static.AdminLTE.bower_components.jvectormap.converter.simplifier",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app_devis.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

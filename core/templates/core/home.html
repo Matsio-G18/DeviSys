@@ -1,0 +1,146 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block title %}Accueil — Devisys{% endblock %}
+
+{% block content %}
+<!-- EN-TÊTE DE LA PAGE -->
+<section class="content-header text-center" style="padding: 20px 0 30px 0;">
+    <h1>
+        <span style="font-size: 35px;">⚡</span> DeviSys
+        <small style="display: block; margin-top: 5px; text-transform: uppercase; font-weight: 600; color: #3c8dbc;">
+            Solutions Numériques — Don'G
+        </small>
+    </h1>
+    <p class="lead" style="max-width: 600px; margin: 10px auto 0 auto; color: #666;">
+        Générez, pilotez et exportez vos devis professionnels sur WhatsApp en moins de 5 minutes.
+    </p>
+</section>
+
+<!-- SECTION 1 : TABLEAU DE BORD RAPIDE (SMALL BOXES ADMINLTE) -->
+<div class="row">
+    <!-- Brouillons -->
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-gray">
+            <div class="inner">
+                <h3>04</h3>
+                <p>Brouillons</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-file-text-o"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Envoyés -->
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <h3>12</h3>
+                <p>Envoyés</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-paper-plane"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Acceptés -->
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3>08</h3>
+                <p>Acceptés</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-check-circle"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Total Signé -->
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-blue">
+            <div class="inner">
+                <h3>FCFA</h3>
+                <p>Total Signé</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-money"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 2 : RACCOURCIS D'ACTIONS RAPIDES -->
+<div class="row" style="margin-top: 15px;">
+    <!-- Carte 1 : Créer un Devis -->
+    <div class="col-md-6">
+        <div class="info-box bg-yellow" style="cursor: pointer;" onclick="window.location='{% url 'devis:create' %}';">
+            <span class="info-box-icon"><i class="fa fa-plus-square"></i></span>
+            <div class="info-box-content" style="padding-top: 15px;">
+                <span class="info-box-number" style="font-size: 18px;">Créer un Devis</span>
+                <span class="info-box-text" style="text-transform: none; opacity: 0.9;">Particulier, ONG ou Entreprise</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Carte 2 : Nouveau Client -->
+    <div class="col-md-6">
+        <div class="info-box bg-white border" style="cursor: pointer; border: 1px solid #ddd;" onclick="window.location='#';">
+            <span class="info-box-icon bg-gray-light text-black"><i class="fa fa-user-plus"></i></span>
+            <div class="info-box-content" style="padding-top: 15px; color: #333;">
+                <span class="info-box-number" style="font-size: 18px;">Nouveau Client</span>
+                <span class="info-box-text" style="text-transform: none; color: #777;">Ajout rapide de profils et NIF/RCCM</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 3 : DERNIÈRES ACTIVITÉS -->
+<div class="row" style="margin-top: 20px;">
+    <div class="col-xs-12">
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title"><i class="fa fa-history"></i> Activité récente</h3>
+                <div class="box-tools pull-right">
+                    <a href="{% url 'devis:list' %}" class="btn btn-sm btn-link">Voir tout <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+                <ul class="products-list product-list-in-box">
+                    <!-- Exemple Ligne Devis 1 -->
+                    <li class="item">
+                        <div class="product-info" style="margin-left: 15px;">
+                            <span class="label label-primary pull-right" style="font-size: 13px;">1 450 000 XAF</span>
+                            <a href="#" class="product-title" style="font-weight: 600;">
+                                Installation Réseau Filaire
+                            </a>
+                            <span class="label label-warning" style="margin-left: 10px;">Envoyé</span>
+                            <span class="product-description">
+                                Code : DEV-BZV-26-003 | Client: Société Alpha S.A.
+                            </span>
+                        </div>
+                    </li>
+                    <!-- Exemple Ligne Devis 2 -->
+                    <li class="item">
+                        <div class="product-info" style="margin-left: 15px;">
+                            <span class="label label-success pull-right" style="font-size: 13px;">850 000 XAF</span>
+                            <a href="#" class="product-title" style="font-weight: 600;">
+                                Maintenance Parc Informatique
+                            </a>
+                            <span class="label label-success" style="margin-left: 10px;">Accepté</span>
+                            <span class="product-description">
+                                Code : DEV-BZV-26-002 | Client: ONG Congo Horizon
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+    </div>
+</div>
+{% endblock %}
